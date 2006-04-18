@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://tabcontrol/locale/overlay.dtd">
+<?xml-stylesheet href="chrome://browser/skin/" type="text/css"?>
+
+<dialog id="tabcontrol-options"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	title="&tabcontrol.options;"
+	buttons="accept, cancel"
+	onload="gTabControl.loadOptions();"
+	ondialogaccept="gTabControl.saveOptions();"
+	persist="width height screenX screenY"
+>
+	<script type="application/x-javascript" src="chrome://tabcontrol/content/tabcontrol.js"></script>
+
+	<groupbox align="center" orient="horizontal">
+	<vbox>
+		<text value="Tab Control" style="font-weight: bold; font-size: x-large;" />
+		<separator class="thin" />
+
+		<checkbox id='focusLeftOnClose' prefstring='tabcontrol.focusLeftOnClose'
+			label='&tabcontrol.focusLeft;'
+		/>
+		<separator class="thin" />
+
+		<checkbox id='posRightOnAdd' prefstring='tabcontrol.posRightOnAdd'
+			label='&tabcontrol.posRight;'
+		/>
+		<separator class="thin" />
+
+		<checkbox id='doNotCloseWinOnHotkey' prefstring='tabcontrol.doNotCloseWinOnHotkey'
+			label='&tabcontrol.noCloseHotkey;'
+		/>
+		<separator class="thin" />
+
+		<hbox align='center'>
+			<label value='&divertedWindowOpen.label;' control='divertedWindowOpen' />
+			<menulist prefstring='browser.link.open_newwindow.restriction'>
+				<menupopup>
+					<menuitem value='0' label='&divertedWindowOpen.all;' />
+					<menuitem value='2' label='&divertedWindowOpen.some;' />
+					<menuitem value='1' label='&divertedWindowOpen.none;' />
+				</menupopup>
+			</menulist>
+		</hbox>
+		<separator class='thin' />
+
+		<hbox align='center'>
+			<label value='&tabcontrol.tabWidth;:' />
+
+			<label value='&tabcontrol.min;:' />
+			<textbox size='4' prefstring='tabcontrol.tabMinWidth' preftype='int' />
+
+			<label value='&tabcontrol.max;:' />
+			<textbox size='4' prefstring='tabcontrol.tabMaxWidth' preftype='int' />
+		</hbox>
+		<separator class='thin' />
+	</vbox>
+	</groupbox>
+</dialog>
