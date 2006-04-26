@@ -32,13 +32,13 @@ onLoad:function() {
 	gBrowser.mTabContainer.firstChild.maxWidth=
 		gTabControl.getPref('int', 'tabcontrol.tabMaxWidth');
 
+	//get reference to string bundle
+	var bundle=document.getElementById('tabcontrol-bundle');
+
 	//insert item to duplicate tab
 	var duplicateTabItem=document.createElement('menuitem');
-	// =( no entities in JS ..
-	//duplicateTabItem.setAttribute('label', '&duplicateTabMenu.label;');
-	//duplicateTabItem.setAttribute('accesskey', '&duplicateTabMenu.acceskey;');
-	duplicateTabItem.setAttribute('label', 'Duplicate Tab');
-	duplicateTabItem.setAttribute('accesskey', 'D');
+	duplicateTabItem.setAttribute('label', bundle.getString('duplicateTab'));
+	duplicateTabItem.setAttribute('accesskey', bundle.getString('duplicateTabAccessKey'));
 	duplicateTabItem.setAttribute('oncommand', 'gTabControl.duplicateTab(this);');
 	
 	var tabMenu=document

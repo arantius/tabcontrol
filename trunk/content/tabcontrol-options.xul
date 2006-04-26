@@ -4,7 +4,7 @@
 
 <dialog id="tabcontrol-options"
 	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-	title="&tabcontrol.options;"
+	title="&tabcontrol.title; - &tabcontrol.options;"
 	buttons="accept, cancel"
 	onload="gTabControl.loadOptions();"
 	ondialogaccept="gTabControl.saveOptions();"
@@ -14,7 +14,7 @@
 
 	<groupbox align="center" orient="horizontal">
 	<vbox>
-		<text value="Tab Control" style="font-weight: bold; font-size: x-large;" />
+		<text value="&tabcontrol.title;" style="font-weight: bold; font-size: x-large;" />
 		<separator class="thin" />
 
 		<checkbox id='focusLeftOnClose' prefstring='tabcontrol.focusLeftOnClose'
