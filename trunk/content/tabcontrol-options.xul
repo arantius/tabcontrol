@@ -45,12 +45,12 @@
 		<separator class='thin' />
 
 		<hbox align='center'>
-			<label value='&tabcontrol.tabWidth;:' />
+			<label value='&tabcontrol.tabWidth;' />
 
-			<label value='&tabcontrol.min;:' />
+			<label value='&tabcontrol.min;' />
 			<textbox size='4' prefstring='tabcontrol.tabMinWidth' preftype='int' />
 
-			<label value='&tabcontrol.max;:' />
+			<label value='&tabcontrol.max;' />
 			<textbox size='4' prefstring='tabcontrol.tabMaxWidth' preftype='int' />
 		</hbox>
 		<separator class='thin' />

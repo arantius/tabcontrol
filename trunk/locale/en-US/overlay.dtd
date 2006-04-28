@@ -19,6 +19,6 @@
 <!ENTITY tabcontrol.focusLeft     "Focus left tab when closing current tab">
 <!ENTITY tabcontrol.posRight      "Position new tabs to right of current tab">
 <!ENTITY tabcontrol.noCloseHotkey "Do not close window with close tab hotkey">
-<!ENTITY tabcontrol.tabWidth      "Tab width">
-<!ENTITY tabcontrol.min           "Min">
-<!ENTITY tabcontrol.max           "Max">
+<!ENTITY tabcontrol.tabWidth      "Tab width:">
+<!ENTITY tabcontrol.min           "Min:">
+<!ENTITY tabcontrol.max           "Max:">
