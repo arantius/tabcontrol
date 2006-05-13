@@ -1,0 +1,21 @@
+<!ENTITY focusTab.labelBegin "Ved lukning af faneblad fokuser på:">
+<!ENTITY focusTab.first "første">
+<!ENTITY focusTab.right "til højre">
+<!ENTITY focusTab.left "til venstre">
+<!ENTITY focusTab.last "sidste">
+<!ENTITY focusTab.lastSelected "sidst valgte">
+<!ENTITY focusTab.labelEnd "faneblad">
+<!ENTITY divertedWindowOpen.label "JavaScript popups:">
+<!ENTITY divertedWindowOpen.all "Ingen yderligere indstillinger">
+<!ENTITY divertedWindowOpen.some "Tillad at åbne ændrede popups i nyt vindue">
+<!ENTITY divertedWindowOpen.none "Tillad alle popups at åbne i nyt vindue">
+<!ENTITY duplicateTabMenu.label "Duplikér faneblad">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Fanebladskontrol">
+<!ENTITY tabcontrol.options "Indstillinger">
+<!ENTITY tabcontrol.focusLeft "Fokusér på venstre faneblad ved lukning af nuværende faneblad">
+<!ENTITY tabcontrol.posRight "Placer nye faneblade til højre for nuværende faneblad">
+<!ENTITY tabcontrol.noCloseHotkey "Luk ikke vinduet med luk faneblad genvejstasten">
+<!ENTITY tabcontrol.tabWidth "Fanebladsbredde">
+<!ENTITY tabcontrol.min "Mindst">
+<!ENTITY tabcontrol.max "Maksimalt">

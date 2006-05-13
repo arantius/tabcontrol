@@ -1,0 +1,21 @@
+<!ENTITY focusTab.labelBegin "Quando fechar uma aba transferir o foco para:">
+<!ENTITY focusTab.first "primeira">
+<!ENTITY focusTab.right "direita">
+<!ENTITY focusTab.left "esquerda">
+<!ENTITY focusTab.last "última">
+<!ENTITY focusTab.lastSelected "última selecionada">
+<!ENTITY focusTab.labelEnd "aba">
+<!ENTITY divertedWindowOpen.label "popups JavaScript:">
+<!ENTITY divertedWindowOpen.all "Nenhuma configuração adicional">
+<!ENTITY divertedWindowOpen.some "Permitir redimensionar popups abertos em nova janela">
+<!ENTITY divertedWindowOpen.none "Permitir todos os popups abrir em nova janela">
+<!ENTITY duplicateTabMenu.label "Duplicar Aba">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Opções">
+<!ENTITY tabcontrol.focusLeft "Focar aba esquerda quando fechar a aba atual">
+<!ENTITY tabcontrol.posRight "Posicionar novas abas a direita da aba atual">
+<!ENTITY tabcontrol.noCloseHotkey "Não fechar janela com a tecla de atalho para fechar aba">
+<!ENTITY tabcontrol.tabWidth "Largura da aba">
+<!ENTITY tabcontrol.min "Min">
+<!ENTITY tabcontrol.max "Max">

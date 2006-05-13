@@ -1,0 +1,21 @@
+<!ENTITY focusTab.labelBegin "Tras cerrar pestaña enfocar la:">
+<!ENTITY focusTab.first "primera">
+<!ENTITY focusTab.right "de la derecha">
+<!ENTITY focusTab.left "de la izquierda">
+<!ENTITY focusTab.last "última">
+<!ENTITY focusTab.lastSelected "última seleccionada">
+<!ENTITY focusTab.labelEnd ".">
+<!ENTITY divertedWindowOpen.label "Ventanas emergentes JavaScript:">
+<!ENTITY divertedWindowOpen.all "Sin predisposiciones especiales">
+<!ENTITY divertedWindowOpen.some "Permitir que las redimensionadas se abran en nueva ventana">
+<!ENTITY divertedWindowOpen.none "Permitir que todas se abran en nueva ventana">
+<!ENTITY duplicateTabMenu.label "Duplicar pestaña">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Opciones">
+<!ENTITY tabcontrol.focusLeft "Enfocar pestaña a la izquierda tras cerrar la actual">
+<!ENTITY tabcontrol.posRight "Colocar las nuevas pestañas a la derecha de la actual">
+<!ENTITY tabcontrol.noCloseHotkey "No permitir cerrar ventana con tecla de acceso rápido de cierre de pestañas">
+<!ENTITY tabcontrol.tabWidth "Ancho de pestaña:">
+<!ENTITY tabcontrol.min "Mín:">
+<!ENTITY tabcontrol.max "Máx:">

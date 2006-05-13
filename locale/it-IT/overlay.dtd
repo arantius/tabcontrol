@@ -1,0 +1,21 @@
+<!ENTITY focusTab.labelBegin "Chiudendo una scheda in primo piano:">
+<!ENTITY focusTab.first "primo">
+<!ENTITY focusTab.right "destro">
+<!ENTITY focusTab.left "sinistro">
+<!ENTITY focusTab.last "ultimo">
+<!ENTITY focusTab.lastSelected "ultima selezione">
+<!ENTITY focusTab.labelEnd "scheda">
+<!ENTITY divertedWindowOpen.label "Popup JavaScript:">
+<!ENTITY divertedWindowOpen.all "Nessuna ulteriore impostazione">
+<!ENTITY divertedWindowOpen.some "Permetti ai popup di diversa dimensione di aprirsi in una nuova finestra">
+<!ENTITY divertedWindowOpen.none "Permetti a tutti i popup di aprirsi in una nuova finestra">
+<!ENTITY duplicateTabMenu.label "Duplica la scheda">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Controllo della scheda">
+<!ENTITY tabcontrol.options "Opzioni">
+<!ENTITY tabcontrol.focusLeft "Metti in primo piano la scheda a sinistra quando si chiude la finestra corrente">
+<!ENTITY tabcontrol.posRight "Posiziona le nuove schede alla destra della scheda corrente">
+<!ENTITY tabcontrol.noCloseHotkey "Non chiudere la finestra con il tasto di chiusura rapida della scheda">
+<!ENTITY tabcontrol.tabWidth "Larghezza della scheda:">
+<!ENTITY tabcontrol.min "Min:">
+<!ENTITY tabcontrol.max "Max:">

@@ -1,0 +1,21 @@
+<!ENTITY focusTab.labelBegin "При закрытии вкладки, переходить на:">
+<!ENTITY focusTab.first "первую вкладку">
+<!ENTITY focusTab.right "вкладку справа">
+<!ENTITY focusTab.left "вкладку слева">
+<!ENTITY focusTab.last "последнюю вкладку">
+<!ENTITY focusTab.lastSelected "последнюю выделенную вкладку">
+<!ENTITY focusTab.labelEnd ".">
+<!ENTITY divertedWindowOpen.label "Всплывающие окна JavaScript:">
+<!ENTITY divertedWindowOpen.all "Применять настройки поумолчанию">
+<!ENTITY divertedWindowOpen.some "Разрешать открываться как новые окна всплывающим окнам с изменяемыми размерами">
+<!ENTITY divertedWindowOpen.none "Разрешать всем вспывающим окнам открываться как новые окна">
+<!ENTITY duplicateTabMenu.label "Дублировать вкладку">
+<!ENTITY duplicateTabMenu.accesskey "Д">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Настройки">
+<!ENTITY tabcontrol.focusLeft "При закрытии текущей вкладки переходить на левую вкладку">
+<!ENTITY tabcontrol.posRight "Перемещать новые вкладки вправо от текущей вкладки">
+<!ENTITY tabcontrol.noCloseHotkey "Не закрывать окно по горячей клавише закрытия вкладок">
+<!ENTITY tabcontrol.tabWidth "Ширина вкладки">
+<!ENTITY tabcontrol.min "Минимальная">
+<!ENTITY tabcontrol.max "Максимальная">

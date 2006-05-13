@@ -1,0 +1,21 @@
+<!ENTITY focusTab.labelBegin "Gdy zamykasz kartę uaktywnij">
+<!ENTITY focusTab.first "pierwszą">
+<!ENTITY focusTab.right "po prawej stronie">
+<!ENTITY focusTab.left "po lewej stronie">
+<!ENTITY focusTab.last "ostatnią">
+<!ENTITY focusTab.lastSelected "ostatnio otwartą">
+<!ENTITY focusTab.labelEnd "kartę">
+<!ENTITY divertedWindowOpen.label "Wyskakujące okienka">
+<!ENTITY divertedWindowOpen.all "Stosuj ustawienia przeglądarki">
+<!ENTITY divertedWindowOpen.some "o zmiennej wielkości otwieraj w nowym oknie">
+<!ENTITY divertedWindowOpen.none "otwieraj wszystkie w nowym oknie">
+<!ENTITY duplicateTabMenu.label "Duplikuj kartę">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Opcje">
+<!ENTITY tabcontrol.focusLeft "Gdy zamykasz aktywną kartę, uaktywnij kartę po lewej stronie">
+<!ENTITY tabcontrol.posRight "Nowe karty otwieraj po prawej stronie aktywnej karty">
+<!ENTITY tabcontrol.noCloseHotkey "Nie zamykaj okna przy pomocy skrótu klawiaturowego">
+<!ENTITY tabcontrol.tabWidth "Szerokość etykiet kart">
+<!ENTITY tabcontrol.min "Minimalna">
+<!ENTITY tabcontrol.max "Maksymalna">

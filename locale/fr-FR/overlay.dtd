@@ -1,0 +1,21 @@
+<!ENTITY focusTab.labelBegin "À la fermeture de l'onglet actif, passer sur :">
+<!ENTITY focusTab.first "le premier onglet">
+<!ENTITY focusTab.right "l'onglet de droite">
+<!ENTITY focusTab.left "l'onglet de gauche">
+<!ENTITY focusTab.last "le dernier onglet">
+<!ENTITY focusTab.lastSelected "le dernier onglet sélectionné">
+<!ENTITY focusTab.labelEnd ".">
+<!ENTITY divertedWindowOpen.label "Popups Javascript :">
+<!ENTITY divertedWindowOpen.all "Pas de paramètres additionnels">
+<!ENTITY divertedWindowOpen.some "Autoriser l'ouverture des popups redimensionnées dans une nouvelle fenêtre">
+<!ENTITY divertedWindowOpen.none "Autoriser l'ouverture de toutes les popups dans une nouvelle fenêtre">
+<!ENTITY duplicateTabMenu.label "Dupliquer l'onglet">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Options">
+<!ENTITY tabcontrol.focusLeft "À la fermeture de l'onglet courant, activer l'onglet de gauche">
+<!ENTITY tabcontrol.posRight "Positionner les nouveaux onglets à la droite de l'onglet courant">
+<!ENTITY tabcontrol.noCloseHotkey "Ne pas fermer la fenêtre avec la touche de fermeture rapide de l'onglet">
+<!ENTITY tabcontrol.tabWidth "Largeur des onglets :">
+<!ENTITY tabcontrol.min "Min :">
+<!ENTITY tabcontrol.max "Max :">
