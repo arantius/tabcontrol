@@ -5,4 +5,11 @@ overlay	chrome://navigator/content/navigator.xul	chrome://tabcontrol/content/tab
 skin	tabcontrol	classic/1.0	skin/
 style	chrome://global/content/customizeToolbar.xul	chrome://tabcontrol/skin/tabcontrol-overlay.css
 
-locale	tabcontrol	en-US	locale/en-US/
+locale tabcontrol da-DK locale/da-DK/
+locale tabcontrol en-US locale/en-US/
+locale tabcontrol es-ES locale/es-ES/
+locale tabcontrol fr-FR locale/fr-FR/
+locale tabcontrol it-IT locale/it-IT/
+locale tabcontrol pl-PL locale/pl-PL/
+locale tabcontrol pt-BR locale/pt-BR/
+locale tabcontrol ru-RU locale/ru-RU/
