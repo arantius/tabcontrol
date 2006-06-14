@@ -1,4 +1,4 @@
-<!ENTITY focusTab.labelBegin "Gdy zamykasz kartę uaktywnij">
+<!ENTITY focusTab.labelBegin "Gdy zamykasz aktywną kartę uaktywnij">
 <!ENTITY focusTab.first "pierwszą">
 <!ENTITY focusTab.right "po prawej stronie">
 <!ENTITY focusTab.left "po lewej stronie">
@@ -6,7 +6,7 @@
 <!ENTITY focusTab.lastSelected "ostatnio otwartą">
 <!ENTITY focusTab.labelEnd "kartę">
 <!ENTITY divertedWindowOpen.label "Wyskakujące okienka">
-<!ENTITY divertedWindowOpen.all "Stosuj ustawienia przeglądarki">
+<!ENTITY divertedWindowOpen.all "- stosuj ustawienia przeglądarki">
 <!ENTITY divertedWindowOpen.some "o zmiennej wielkości otwieraj w nowym oknie">
 <!ENTITY divertedWindowOpen.none "otwieraj wszystkie w nowym oknie">
 <!ENTITY duplicateTabMenu.label "Duplikuj kartę">

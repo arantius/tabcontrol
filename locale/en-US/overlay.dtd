@@ -1,24 +1,21 @@
-<!ENTITY focusTab.labelBegin          "When closing a tab focus:">
-<!ENTITY focusTab.first               "first">
-<!ENTITY focusTab.right               "right">
-<!ENTITY focusTab.left                "left">
-<!ENTITY focusTab.last                "last">
-<!ENTITY focusTab.lastSelected        "last selected">
-<!ENTITY focusTab.labelEnd            "tab">
-
-<!ENTITY divertedWindowOpen.label     "JavaScript popups:">
-<!ENTITY divertedWindowOpen.all       "No additional settings">
-<!ENTITY divertedWindowOpen.some      "Allow resized popups open in new window">
-<!ENTITY divertedWindowOpen.none      "Allow all popups open in new window">
-
-<!ENTITY duplicateTabMenu.label       "Duplicate Tab">
-<!ENTITY duplicateTabMenu.accesskey   "D">
-
-<!ENTITY tabcontrol.title         "Tab Control">
-<!ENTITY tabcontrol.options       "Options">
-<!ENTITY tabcontrol.focusLeft     "Focus left tab when closing current tab">
-<!ENTITY tabcontrol.posRight      "Position new tabs to right of current tab">
+<!ENTITY focusTab.labelBegin "When closing a tab focus:">
+<!ENTITY focusTab.first "first">
+<!ENTITY focusTab.right "right">
+<!ENTITY focusTab.left "left">
+<!ENTITY focusTab.last "last">
+<!ENTITY focusTab.lastSelected "last selected">
+<!ENTITY focusTab.labelEnd "tab">
+<!ENTITY divertedWindowOpen.label "JavaScript popups:">
+<!ENTITY divertedWindowOpen.all "No additional settings">
+<!ENTITY divertedWindowOpen.some "Allow resized popups open in new window">
+<!ENTITY divertedWindowOpen.none "Allow all popups open in new window">
+<!ENTITY duplicateTabMenu.label "Duplicate Tab">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Options">
+<!ENTITY tabcontrol.focusLeft "Focus left tab when closing current tab">
+<!ENTITY tabcontrol.posRight "Position new tabs to right of current tab">
 <!ENTITY tabcontrol.noCloseHotkey "Do not close window with close tab hotkey">
-<!ENTITY tabcontrol.tabWidth      "Tab width:">
-<!ENTITY tabcontrol.min           "Min:">
-<!ENTITY tabcontrol.max           "Max:">
+<!ENTITY tabcontrol.tabWidth "Tab width:">
+<!ENTITY tabcontrol.min "Min:">
+<!ENTITY tabcontrol.max "Max:">
