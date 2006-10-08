@@ -6,19 +6,19 @@
 		<em:version>0.2.3</em:version>
 		
 		<em:creator>Anthony Lieuallen</em:creator>
-		<em:homepageURL>http://www.arantius.com/article/arantius/tab+control/</em:homepageURL>
+		<em:homepageURL>http://firefox-extensions.arantius.com/tab+control</em:homepageURL>
 		<em:description>Take control of your tabs!</em:description>
 		<em:contributor>Based loosely on Tab Mix Plus</em:contributor>
 
 		<em:iconURL>chrome://tabcontrol/skin/em-icon.png</em:iconURL>
 		<em:optionsURL>chrome://tabcontrol/content/tabcontrol-options.xul</em:optionsURL>
-		<em:updateURL>http://www.arantius.com/misc/firefox-extensions/mine/updates.rdf</em:updateURL>
+		<em:updateURL>http://arantius.com/misc/firefox-extensions/mine/updates.rdf</em:updateURL>
 
 		<em:targetApplication>
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>1.5</em:minVersion>
-				<em:maxVersion>2.0.*</em:maxVersion>
+				<em:maxVersion>2.0.0.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 	</Description>
