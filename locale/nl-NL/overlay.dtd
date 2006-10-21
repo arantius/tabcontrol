@@ -1,0 +1,21 @@
+<!ENTITY focusTab.labelBegin "Wanneer een tabblad gesloten wordt focussen op:">
+<!ENTITY focusTab.first "eerste">
+<!ENTITY focusTab.right "rechter">
+<!ENTITY focusTab.left "linker">
+<!ENTITY focusTab.last "laatste">
+<!ENTITY focusTab.lastSelected "laatst geselecteerde">
+<!ENTITY focusTab.labelEnd "tabblad">
+<!ENTITY divertedWindowOpen.label "JavaScript popups:">
+<!ENTITY divertedWindowOpen.all "Geen aanvullende instellingen">
+<!ENTITY divertedWindowOpen.some "Openen in nieuw venster toestaan aan popups met gewijzigde afmetingen">
+<!ENTITY divertedWindowOpen.none "Openen in nieuw venster toestaan aan alle popups">
+<!ENTITY duplicateTabMenu.label "Tabblad dupliceren">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Tabblad-beheer">
+<!ENTITY tabcontrol.options "Opties">
+<!ENTITY tabcontrol.focusLeft "Focussen op linkertab wanneer de huidige tabblad wordt gesloten">
+<!ENTITY tabcontrol.posRight "Nieuwe tabs rechts van de huidige tabblad plaatsen">
+<!ENTITY tabcontrol.noCloseHotkey "Het venster niet met &apos;Tabblad sluiten&apos; sneltoets sluiten">
+<!ENTITY tabcontrol.tabWidth "Tabblad-breedte:">
+<!ENTITY tabcontrol.min "Min:">
+<!ENTITY tabcontrol.max "Max:">

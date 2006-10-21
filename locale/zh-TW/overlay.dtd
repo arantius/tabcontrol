@@ -1,0 +1,21 @@
+<!ENTITY focusTab.labelBegin "當關閉目前分頁時切換至:">
+<!ENTITY focusTab.first "第一個">
+<!ENTITY focusTab.right "右邊的">
+<!ENTITY focusTab.left "左邊的">
+<!ENTITY focusTab.last "最後一個">
+<!ENTITY focusTab.lastSelected "最後選取的">
+<!ENTITY focusTab.labelEnd "分頁">
+<!ENTITY divertedWindowOpen.label "JavaScript 廣告:">
+<!ENTITY divertedWindowOpen.all "無附加操作">
+<!ENTITY divertedWindowOpen.some "允許經調整的彈出視窗開啟到新視窗">
+<!ENTITY divertedWindowOpen.none "允許所有彈出視窗開啟到新視窗">
+<!ENTITY duplicateTabMenu.label "複製分頁(D)">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "分頁控制">
+<!ENTITY tabcontrol.options "選項">
+<!ENTITY tabcontrol.focusLeft "當關閉目前分頁時切換至左邊分頁">
+<!ENTITY tabcontrol.posRight "放置新分頁至目前分頁的右邊">
+<!ENTITY tabcontrol.noCloseHotkey "不使用關閉分頁熱鍵關閉分頁">
+<!ENTITY tabcontrol.tabWidth "分頁寬度:">
+<!ENTITY tabcontrol.min "最小:">
+<!ENTITY tabcontrol.max "最多:">
