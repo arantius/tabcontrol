@@ -19,3 +19,8 @@
 <!ENTITY tabcontrol.tabWidth "Szerokość etykiet kart">
 <!ENTITY tabcontrol.min "Minimalna">
 <!ENTITY tabcontrol.max "Maksymalna">
+<!ENTITY tabcontrol.closeButtons.label "Close buttons:">
+<!ENTITY tabcontrol.closeButtons.active "One, on active tab">
+<!ENTITY tabcontrol.closeButtons.right "One, on the right">
+<!ENTITY tabcontrol.closeButtons.all "Many, on all tabs">
+<!ENTITY tabcontrol.closeButtons.none "None">
