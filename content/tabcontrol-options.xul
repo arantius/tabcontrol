@@ -45,6 +45,19 @@
 		<separator class='thin' />
 
 		<hbox align='center'>
+			<label value='&tabcontrol.closeButtons.label;' />
+			<menulist prefstring='browser.tabs.closeButtons'>
+				<menupopup>
+					<menuitem value='0' label='&tabcontrol.closeButtons.active;' />
+					<menuitem value='1' label='&tabcontrol.closeButtons.all;' />
+					<menuitem value='2' label='&tabcontrol.closeButtons.none;' />
+					<menuitem value='3' label='&tabcontrol.closeButtons.right;' />
+				</menupopup>
+			</menulist>
+		</hbox>
+		<separator class='thin' />
+
+		<hbox align='center'>
 			<label value='&tabcontrol.tabWidth;' />
 
 			<label value='&tabcontrol.min;' />
