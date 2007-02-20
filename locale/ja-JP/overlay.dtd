@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "タブを閉じた時の表示先:">
+<!ENTITY focusTab.first "最初">
+<!ENTITY focusTab.right "右">
+<!ENTITY focusTab.left "左">
+<!ENTITY focusTab.last "最後">
+<!ENTITY focusTab.lastSelected "最後に選択された">
+<!ENTITY focusTab.labelEnd "タブ">
+<!ENTITY divertedWindowOpen.label "JavaScript ポップアップ:">
+<!ENTITY divertedWindowOpen.all "追加設定を行わない">
+<!ENTITY divertedWindowOpen.some "大きさを変更可能なポップアップを新しいウィンドウで開く">
+<!ENTITY divertedWindowOpen.none "すべてのポップアップを新しいウィンドウで開く">
+<!ENTITY duplicateTabMenu.label "タブを複製">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "タブコントロール">
+<!ENTITY tabcontrol.options "オプション">
+<!ENTITY tabcontrol.focusLeft "表示中のタブが閉じられた時は左のタブを表示">
+<!ENTITY tabcontrol.posRight "表示中のタブの右に新しいタブを開く">
+<!ENTITY tabcontrol.noCloseHotkey "キーボード操作でタブを閉じない">
+<!ENTITY tabcontrol.tabWidth "タブの横幅:">
+<!ENTITY tabcontrol.min "最小:">
+<!ENTITY tabcontrol.max "最大:">
+<!ENTITY tabcontrol.closeButtons.label "閉じるボタン:">
+<!ENTITY tabcontrol.closeButtons.active "表示中のタブ">
+<!ENTITY tabcontrol.closeButtons.right "タブバーの右端">
+<!ENTITY tabcontrol.closeButtons.all "すべてのタブ">
+<!ENTITY tabcontrol.closeButtons.none "なし">

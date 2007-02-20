@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "Pri uzavretí karty preniesť do popredia:">
+<!ENTITY focusTab.first "prvú">
+<!ENTITY focusTab.right "napravo">
+<!ENTITY focusTab.left "naľavo">
+<!ENTITY focusTab.last "poslednú">
+<!ENTITY focusTab.lastSelected "naposledy označenú">
+<!ENTITY focusTab.labelEnd "kartu">
+<!ENTITY divertedWindowOpen.label "Vyskakovacie okná JavaScriptu:">
+<!ENTITY divertedWindowOpen.all "Bez ďalších nastavení">
+<!ENTITY divertedWindowOpen.some "Povoliť otváranie vyskakovacích okien s určenou veľkosťou v novom okne">
+<!ENTITY divertedWindowOpen.none "Povoliť otváranie všetkých vyskakovacích okien v novom okne">
+<!ENTITY duplicateTabMenu.label "Duplikovať kartu">
+<!ENTITY duplicateTabMenu.accesskey "d">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Nastavenia">
+<!ENTITY tabcontrol.focusLeft "Preniesť do popredia kartu naľavo od práve zatváranej">
+<!ENTITY tabcontrol.posRight "Umiestniť novú kartu napravo od aktuálnej">
+<!ENTITY tabcontrol.noCloseHotkey "Nezatvárať okno stlačením klávesovej skratky">
+<!ENTITY tabcontrol.tabWidth "Šírka karty:">
+<!ENTITY tabcontrol.min "Min:">
+<!ENTITY tabcontrol.max "Max:">
+<!ENTITY tabcontrol.closeButtons.label "Tlačidlá Zavrieť:">
+<!ENTITY tabcontrol.closeButtons.active "Jedno, na aktívnej karte">
+<!ENTITY tabcontrol.closeButtons.right "Jedno, napravo">
+<!ENTITY tabcontrol.closeButtons.all "Viac, na všetkých kartách">
+<!ENTITY tabcontrol.closeButtons.none "Žiadne">

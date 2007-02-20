@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "Nakon zatvaranja kartice fokusiraj:">
+<!ENTITY focusTab.first "prvu">
+<!ENTITY focusTab.right "desnu">
+<!ENTITY focusTab.left "lijevu">
+<!ENTITY focusTab.last "zadnju">
+<!ENTITY focusTab.lastSelected "zadnje odabranu">
+<!ENTITY focusTab.labelEnd "karticu">
+<!ENTITY divertedWindowOpen.label "JavaScript skočni prozori:">
+<!ENTITY divertedWindowOpen.all "Bez dodatnih postavki">
+<!ENTITY divertedWindowOpen.some "Dopusti skočne prozore promijenjenih veličina u novom prozoru">
+<!ENTITY divertedWindowOpen.none "Dopusti sve skočne prozore otvorene u novom prozoru">
+<!ENTITY duplicateTabMenu.label "Dupliciraj karticu">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Opcije">
+<!ENTITY tabcontrol.focusLeft "Fokusiraj lijevu karticu nakon zatvaranja trenutne kartice">
+<!ENTITY tabcontrol.posRight "Smjesti nove kartice desno od trenutne kartice">
+<!ENTITY tabcontrol.noCloseHotkey "Ne zatvaraj prozor s tipkovničkom kraticom za zatvaranje kartice">
+<!ENTITY tabcontrol.tabWidth "Širina kartice:">
+<!ENTITY tabcontrol.min "Min:">
+<!ENTITY tabcontrol.max "Max:">
+<!ENTITY tabcontrol.closeButtons.label "Gumbi za zatvaranje:">
+<!ENTITY tabcontrol.closeButtons.active "Jedan, na aktivnoj kartici">
+<!ENTITY tabcontrol.closeButtons.right "Jedan, skroz nadesno">
+<!ENTITY tabcontrol.closeButtons.all "Mnogi, na svim karticama">
+<!ENTITY tabcontrol.closeButtons.none "Niti jedan">

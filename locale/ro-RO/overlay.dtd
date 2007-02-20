@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "Cand este inchis un tab focusul va fi pe:">
+<!ENTITY focusTab.first "primul">
+<!ENTITY focusTab.right "dreapta">
+<!ENTITY focusTab.left "stanga">
+<!ENTITY focusTab.last "ultimul">
+<!ENTITY focusTab.lastSelected "ultimul selectat">
+<!ENTITY focusTab.labelEnd "tab">
+<!ENTITY divertedWindowOpen.label "Pop-up JavaScript">
+<!ENTITY divertedWindowOpen.all "Nici o setare in plus">
+<!ENTITY divertedWindowOpen.some "Permite deschiderea de pop-up-uri redimensionate intr-o fereastra noua">
+<!ENTITY divertedWindowOpen.none "Permite tuturor pop-up-urilor sa se deschida intr-o fereastra noua">
+<!ENTITY duplicateTabMenu.label "Duplica tab-ul">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Optiuni">
+<!ENTITY tabcontrol.focusLeft "Focus pe tab-ul din stanga cand este inchis tab-ul curent">
+<!ENTITY tabcontrol.posRight "Pozitioneaza noile taburi la dreapta tabului curent">
+<!ENTITY tabcontrol.noCloseHotkey "Nu inchide fereastra cu tasta de inchidere a taburilor">
+<!ENTITY tabcontrol.tabWidth "Latime tab:">
+<!ENTITY tabcontrol.min "Min:">
+<!ENTITY tabcontrol.max "Max:">
+<!ENTITY tabcontrol.closeButtons.label "Buton de inchidere">
+<!ENTITY tabcontrol.closeButtons.active "Unul, pe tabul activ">
+<!ENTITY tabcontrol.closeButtons.right "Unul, in dreapta">
+<!ENTITY tabcontrol.closeButtons.all "Multe, pe toate tab-urile">
+<!ENTITY tabcontrol.closeButtons.none "Nici unul">

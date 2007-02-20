@@ -19,8 +19,8 @@
 <!ENTITY tabcontrol.tabWidth "Ширина вкладки">
 <!ENTITY tabcontrol.min "Минимальная">
 <!ENTITY tabcontrol.max "Максимальная">
-<!ENTITY tabcontrol.closeButtons.label "Close buttons:">
-<!ENTITY tabcontrol.closeButtons.active "One, on active tab">
-<!ENTITY tabcontrol.closeButtons.right "One, on the right">
-<!ENTITY tabcontrol.closeButtons.all "Many, on all tabs">
-<!ENTITY tabcontrol.closeButtons.none "None">
+<!ENTITY tabcontrol.closeButtons.label "Кнопки закрытия вкладок:">
+<!ENTITY tabcontrol.closeButtons.active "Одна, на активной вкладке">
+<!ENTITY tabcontrol.closeButtons.right "Одна, справа">
+<!ENTITY tabcontrol.closeButtons.all "На всех вкладках">
+<!ENTITY tabcontrol.closeButtons.none "Отсутствуют">

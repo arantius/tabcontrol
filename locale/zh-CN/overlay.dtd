@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "关闭标签后激活：">
+<!ENTITY focusTab.first "第一个">
+<!ENTITY focusTab.right "右侧">
+<!ENTITY focusTab.left "左侧">
+<!ENTITY focusTab.last "最后一个">
+<!ENTITY focusTab.lastSelected "最后一个被选中的">
+<!ENTITY focusTab.labelEnd "标签">
+<!ENTITY divertedWindowOpen.label "JavaScript 弹出窗口：">
+<!ENTITY divertedWindowOpen.all "无附加设置">
+<!ENTITY divertedWindowOpen.some "允许在新建窗口中打开可重定义大小的弹出窗口">
+<!ENTITY divertedWindowOpen.none "允许在新建窗口中打开全部弹出窗口">
+<!ENTITY duplicateTabMenu.label "复制标签">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "标签控制">
+<!ENTITY tabcontrol.options "选项">
+<!ENTITY tabcontrol.focusLeft "关闭当前标签后激活左侧标签">
+<!ENTITY tabcontrol.posRight "定位新标签位置在当前标签右侧">
+<!ENTITY tabcontrol.noCloseHotkey "用快捷键关闭标签时不关闭窗口">
+<!ENTITY tabcontrol.tabWidth "标签宽度：">
+<!ENTITY tabcontrol.min "最小：">
+<!ENTITY tabcontrol.max "最大：">
+<!ENTITY tabcontrol.closeButtons.label "关闭按钮：">
+<!ENTITY tabcontrol.closeButtons.active "一个，在激活标签上">
+<!ENTITY tabcontrol.closeButtons.right "一个，在最右侧">
+<!ENTITY tabcontrol.closeButtons.all "许多，在所有标签上">
+<!ENTITY tabcontrol.closeButtons.none "无">

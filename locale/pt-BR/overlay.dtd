@@ -19,8 +19,8 @@
 <!ENTITY tabcontrol.tabWidth "Largura da aba">
 <!ENTITY tabcontrol.min "Min">
 <!ENTITY tabcontrol.max "Max">
-<!ENTITY tabcontrol.closeButtons.label "Close buttons:">
-<!ENTITY tabcontrol.closeButtons.active "One, on active tab">
-<!ENTITY tabcontrol.closeButtons.right "One, on the right">
-<!ENTITY tabcontrol.closeButtons.all "Many, on all tabs">
-<!ENTITY tabcontrol.closeButtons.none "None">
+<!ENTITY tabcontrol.closeButtons.label "Botões de Fechar:">
+<!ENTITY tabcontrol.closeButtons.active "Um, na aba atual">
+<!ENTITY tabcontrol.closeButtons.right "Um, à direita">
+<!ENTITY tabcontrol.closeButtons.all "Vários, um em cada aba">
+<!ENTITY tabcontrol.closeButtons.none "Nenhum">

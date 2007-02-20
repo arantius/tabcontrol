@@ -11,7 +11,7 @@
 <!ENTITY divertedWindowOpen.none "ad aprirsi tutti in una nuova finestra">
 <!ENTITY duplicateTabMenu.label "Duplica la scheda">
 <!ENTITY duplicateTabMenu.accesskey "D">
-<!ENTITY tabcontrol.title "TabControl">
+<!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Opzioni">
 <!ENTITY tabcontrol.focusLeft "Porta in primo piano la scheda a sinistra quando si chiude la scheda attuale">
 <!ENTITY tabcontrol.posRight "Posiziona le nuove schede a destra della scheda attuale">
@@ -19,8 +19,8 @@
 <!ENTITY tabcontrol.tabWidth "Larghezza cartellino delle schede:">
 <!ENTITY tabcontrol.min "Da">
 <!ENTITY tabcontrol.max "a">
-<!ENTITY tabcontrol.closeButtons.label "Close buttons:">
-<!ENTITY tabcontrol.closeButtons.active "One, on active tab">
-<!ENTITY tabcontrol.closeButtons.right "One, on the right">
-<!ENTITY tabcontrol.closeButtons.all "Many, on all tabs">
-<!ENTITY tabcontrol.closeButtons.none "None">
+<!ENTITY tabcontrol.closeButtons.label "Visualizza il pulsante di chiusura schede:">
+<!ENTITY tabcontrol.closeButtons.active "nella scheda attuale">
+<!ENTITY tabcontrol.closeButtons.right "nella barra delle schede">
+<!ENTITY tabcontrol.closeButtons.all "in tutte le schede">
+<!ENTITY tabcontrol.closeButtons.none "in nessuna scheda">

@@ -13,9 +13,14 @@
 <!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tabblad-beheer">
 <!ENTITY tabcontrol.options "Opties">
-<!ENTITY tabcontrol.focusLeft "Focussen op linkertab wanneer de huidige tabblad wordt gesloten">
-<!ENTITY tabcontrol.posRight "Nieuwe tabs rechts van de huidige tabblad plaatsen">
+<!ENTITY tabcontrol.focusLeft "Focussen op linkertabblad wanneer de huidige tabblad wordt gesloten">
+<!ENTITY tabcontrol.posRight "Nieuwe tabbladen rechts van de huidige tabblad plaatsen">
 <!ENTITY tabcontrol.noCloseHotkey "Het venster niet met &apos;Tabblad sluiten&apos; sneltoets sluiten">
 <!ENTITY tabcontrol.tabWidth "Tabblad-breedte:">
 <!ENTITY tabcontrol.min "Min:">
 <!ENTITY tabcontrol.max "Max:">
+<!ENTITY tabcontrol.closeButtons.label "Sluitknoppen:">
+<!ENTITY tabcontrol.closeButtons.active "Eén, op actief tabblad">
+<!ENTITY tabcontrol.closeButtons.right "Eén, aan rechterzijde">
+<!ENTITY tabcontrol.closeButtons.all "Veel, op alle tabbladen">
+<!ENTITY tabcontrol.closeButtons.none "Geen">

@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "Фокусиране при затваряне на подпорозорец:">
+<!ENTITY focusTab.first "първи">
+<!ENTITY focusTab.right "десен">
+<!ENTITY focusTab.left "ляв">
+<!ENTITY focusTab.last "последен">
+<!ENTITY focusTab.lastSelected "последно избран">
+<!ENTITY focusTab.labelEnd "подпрозорец">
+<!ENTITY divertedWindowOpen.label "JavaScript изскачащи прозорци:">
+<!ENTITY divertedWindowOpen.all "Няма допълнителни настройки">
+<!ENTITY divertedWindowOpen.some "Разрешено отваряне в нов прозорец на изскачащи прозорци с променен размер">
+<!ENTITY divertedWindowOpen.none "Разрешено отваряне в нов прозорец на всички изскачащи прозорци">
+<!ENTITY duplicateTabMenu.label "Създаване на копие на подпрозореца">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Tab Control - управление на подпрозорци">
+<!ENTITY tabcontrol.options "Настройки">
+<!ENTITY tabcontrol.focusLeft "Фокусиране на ляв подпрозорец при затваряне на текущия">
+<!ENTITY tabcontrol.posRight "Поставяне на нови подпрозорци в дясно от текущия">
+<!ENTITY tabcontrol.noCloseHotkey "Не затваряй прозореца при затваряне на подпрозорец с &quot;горещ&quot; клавиш">
+<!ENTITY tabcontrol.tabWidth "Ширина на подпрозореца:">
+<!ENTITY tabcontrol.min "Мин.:">
+<!ENTITY tabcontrol.max "Макс.:">
+<!ENTITY tabcontrol.closeButtons.label "Бутони за затваряне:">
+<!ENTITY tabcontrol.closeButtons.active "Един, на активния подпрозорец">
+<!ENTITY tabcontrol.closeButtons.right "Един, на десния подпрозорец">
+<!ENTITY tabcontrol.closeButtons.all "Много, на всички подпрозорци">
+<!ENTITY tabcontrol.closeButtons.none "Нито един">
