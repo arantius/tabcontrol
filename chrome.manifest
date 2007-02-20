@@ -5,13 +5,22 @@ overlay	chrome://navigator/content/navigator.xul	chrome://tabcontrol/content/tab
 skin	tabcontrol	classic/1.0	skin/
 style	chrome://global/content/customizeToolbar.xul	chrome://tabcontrol/skin/tabcontrol-overlay.css
 
+locale tabcontrol bg-BG locale/bg-BG/
 locale tabcontrol da-DK locale/da-DK/
+locale tabcontrol de-DE locale/de-DE/
 locale tabcontrol en-US locale/en-US/
 locale tabcontrol es-ES locale/es-ES/
 locale tabcontrol fr-FR locale/fr-FR/
+locale tabcontrol hr-HR locale/hr-HR/
 locale tabcontrol it-IT locale/it-IT/
+locale tabcontrol ja-JP locale/ja-JP/
+locale tabcontrol ko-KR locale/ko-KR/
 locale tabcontrol nl-NL locale/nl-NL/
 locale tabcontrol pl-PL locale/pl-PL/
 locale tabcontrol pt-BR locale/pt-BR/
+locale tabcontrol ro-RO locale/ro-RO/
 locale tabcontrol ru-RU locale/ru-RU/
+locale tabcontrol sk-SK locale/sk-SK/
+locale tabcontrol tr-TR locale/tr-TR/
+locale tabcontrol zh-CN locale/zh-CN/
 locale tabcontrol zh-TW locale/zh-TW/
