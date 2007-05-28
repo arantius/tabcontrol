@@ -26,11 +26,11 @@ onLoad:function() {
 		BrowserCloseTabOrWindow=gTabControl.BrowserCloseTabOrWindow;
 	}
 
-	//initial tab's width
-	gBrowser.mTabContainer.firstChild.minWidth=
-		gTabControl.getPref('int', 'tabcontrol.tabMinWidth');
-	gBrowser.mTabContainer.firstChild.maxWidth=
-		gTabControl.getPref('int', 'tabcontrol.tabMaxWidth');
+	//initial tabs' (or tabs') width
+	for (var i=0, t=null; t=gBrowser.mTabContainer.childNodes[i]; i++) {
+		t.minWidth=gTabControl.getPref('int', 'tabcontrol.tabMinWidth');
+		t.maxWidth=gTabControl.getPref('int', 'tabcontrol.tabMaxWidth');
+	}
 
 	//get reference to string bundle
 	var bundle=document.getElementById('tabcontrol-bundle');
@@ -40,7 +40,7 @@ onLoad:function() {
 	duplicateTabItem.setAttribute('label', bundle.getString('duplicateTab'));
 	duplicateTabItem.setAttribute('accesskey', bundle.getString('duplicateTabAccessKey'));
 	duplicateTabItem.setAttribute('oncommand', 'gTabControl.duplicateTab(this);');
-	
+
 	var tabMenu=document
 		.getAnonymousElementByAttribute(gBrowser, 'anonid', 'tabContextMenu');
 	tabMenu.insertBefore(duplicateTabItem, tabMenu.firstChild);
@@ -94,7 +94,7 @@ removeTab:function(aTab) {
 
 	//skip the rest if we don't need to focus a custom tab
 	if (null==tabToSelect) return;
-	
+
 	//set focus to the tab that we want
 	gTabControl.selectTab(tabToSelect);
 },
@@ -110,7 +110,7 @@ selectTab:function(aTab) {
 
 BrowserCloseTabOrWindow:function() {
 	//NOPE!  only close tabs
-	if (gBrowser.localName == 'tabbrowser' && 
+	if (gBrowser.localName == 'tabbrowser' &&
 		gBrowser.tabContainer.childNodes.length > 1
 	) {
 		gBrowser.removeCurrentTab();
@@ -122,7 +122,7 @@ duplicateTab:function(aTab) {
 	if (aTab.localName!="tab") aTab=gBrowser.mCurrentTab;
 	var originalHistory=gBrowser.getBrowserForTab(aTab)
 		.webNavigation.sessionHistory;
-	
+
 	var newTab=gBrowser.addTab();
 	var newHistory=gBrowser.getBrowserForTab(newTab)
 		.webNavigation.sessionHistory;
@@ -153,9 +153,9 @@ getPref:function(aType, aName) {
 		case 'bool':   return this.prefObj.getBoolPref(aName);
 		case 'int':    return this.prefObj.getIntPref(aName);
 		case 'string':
-		default:       return this.prefObj.getCharPref(aName); 
+		default:       return this.prefObj.getCharPref(aName);
 		}
-	} catch (e) { 
+	} catch (e) {
 		return gTabControl.prefDefaults[aName];
 	}
 	return '';
@@ -197,7 +197,7 @@ loadOptions:function() {
 	for (var i=0; texts[i]; i++) {
 		try {
 			texts[i].value=gTabControl.getPref(
-				texts[i].getAttribute('preftype'), 
+				texts[i].getAttribute('preftype'),
 				texts[i].getAttribute('prefstring')
 			);
 		} catch (e) { alert(e) }
@@ -213,7 +213,7 @@ saveOptions:function() {
 		try {
 			gTabControl.setPref(
 				'bool',
-				'tabcontrol.'+checks[i].getAttribute('id'), 
+				'tabcontrol.'+checks[i].getAttribute('id'),
 				checks[i].checked
 			);
 		} catch (e) {  }
@@ -224,7 +224,7 @@ saveOptions:function() {
 	for (var i=0; drops[i]; i++) {
 		try {
 			gTabControl.setPref(
-				'int', 
+				'int',
 				drops[i].getAttribute('prefstring'),
 				drops[i].selectedItem.value
 			);
