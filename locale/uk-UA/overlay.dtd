@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "При закритті вкладки фокусуватись на:">
+<!ENTITY focusTab.first "першій">
+<!ENTITY focusTab.right "правій">
+<!ENTITY focusTab.left "лівій">
+<!ENTITY focusTab.last "останній">
+<!ENTITY focusTab.lastSelected "останній переглянутій">
+<!ENTITY focusTab.labelEnd "вкладці">
+<!ENTITY divertedWindowOpen.label "Вистрибуючі JavaScript-вікна">
+<!ENTITY divertedWindowOpen.all "Без додаткових налаштувань">
+<!ENTITY divertedWindowOpen.some "Дозволити вистрибуючим вікнам із змінним розміром відкриватись у новому вікні">
+<!ENTITY divertedWindowOpen.none "Дозволити всім вистрибуючим вікнам відкриватись у новому вікні">
+<!ENTITY duplicateTabMenu.label "Копіювати вкладку">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Налаштування">
+<!ENTITY tabcontrol.focusLeft "Фокусуватись на лівій вкладці коли закривається поточна">
+<!ENTITY tabcontrol.posRight "Розташовувати нові вкладки праворуч від поточної">
+<!ENTITY tabcontrol.noCloseHotkey "Не закривати вікна &quot;гарячими&quot; клавішами закриття вкладок">
+<!ENTITY tabcontrol.tabWidth "Ширана вкладки:">
+<!ENTITY tabcontrol.min "Min:">
+<!ENTITY tabcontrol.max "Max:">
+<!ENTITY tabcontrol.closeButtons.label "Клавіші закриття:">
+<!ENTITY tabcontrol.closeButtons.active "Одна, на активній вкладці">
+<!ENTITY tabcontrol.closeButtons.right "Одна, праворуч">
+<!ENTITY tabcontrol.closeButtons.all "Багато, на кожній вкладці">
+<!ENTITY tabcontrol.closeButtons.none "Нема">

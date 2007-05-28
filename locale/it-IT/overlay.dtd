@@ -17,7 +17,7 @@
 <!ENTITY tabcontrol.posRight "Posiziona le nuove schede a destra della scheda attuale">
 <!ENTITY tabcontrol.noCloseHotkey "Non chiudere la finestra con il tasto di chiusura rapida della scheda">
 <!ENTITY tabcontrol.tabWidth "Larghezza cartellino delle schede:">
-<!ENTITY tabcontrol.min "Da">
+<!ENTITY tabcontrol.min "da">
 <!ENTITY tabcontrol.max "a">
 <!ENTITY tabcontrol.closeButtons.label "Visualizza il pulsante di chiusura schede:">
 <!ENTITY tabcontrol.closeButtons.active "nella scheda attuale">

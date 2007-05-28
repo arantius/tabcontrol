@@ -11,7 +11,7 @@
 <!ENTITY divertedWindowOpen.none "Openen in nieuw venster toestaan aan alle popups">
 <!ENTITY duplicateTabMenu.label "Tabblad dupliceren">
 <!ENTITY duplicateTabMenu.accesskey "D">
-<!ENTITY tabcontrol.title "Tabblad-beheer">
+<!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Opties">
 <!ENTITY tabcontrol.focusLeft "Focussen op linkertabblad wanneer de huidige tabblad wordt gesloten">
 <!ENTITY tabcontrol.posRight "Nieuwe tabbladen rechts van de huidige tabblad plaatsen">

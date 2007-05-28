@@ -13,6 +13,7 @@ locale tabcontrol en-US locale/en-US/
 locale tabcontrol es-ES locale/es-ES/
 locale tabcontrol fr-FR locale/fr-FR/
 locale tabcontrol hr-HR locale/hr-HR/
+locale tabcontrol hu-HU locale/hu-HU/
 locale tabcontrol it-IT locale/it-IT/
 locale tabcontrol ja-JP locale/ja-JP/
 locale tabcontrol ko-KR locale/ko-KR/
@@ -23,5 +24,6 @@ locale tabcontrol ro-RO locale/ro-RO/
 locale tabcontrol ru-RU locale/ru-RU/
 locale tabcontrol sk-SK locale/sk-SK/
 locale tabcontrol tr-TR locale/tr-TR/
+locale tabcontrol uk-UA locale/uk-UA/
 locale tabcontrol zh-CN locale/zh-CN/
 locale tabcontrol zh-TW locale/zh-TW/

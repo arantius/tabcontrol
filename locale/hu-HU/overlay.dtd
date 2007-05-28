@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "Lap bezárásakor előtérbe helyezendő lap:">
+<!ENTITY focusTab.first "első">
+<!ENTITY focusTab.right "jobbra levő">
+<!ENTITY focusTab.left "balra levő">
+<!ENTITY focusTab.last "utolsó">
+<!ENTITY focusTab.lastSelected "utolsó megjelölt">
+<!ENTITY focusTab.labelEnd "lap">
+<!ENTITY divertedWindowOpen.label "JavaScript előbukkanó ablakok:">
+<!ENTITY divertedWindowOpen.all "További beállítások nélkül">
+<!ENTITY divertedWindowOpen.some "Előbukkanó ablakok engedélyezése megadott nagysággal új ablakban">
+<!ENTITY divertedWindowOpen.none "Minden előbukkanó ablak engedélyezése új ablakban">
+<!ENTITY duplicateTabMenu.label "Lap megkettőzése">
+<!ENTITY duplicateTabMenu.accesskey "m">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Beállítások">
+<!ENTITY tabcontrol.focusLeft "Lap bezárásakor a tőle balra levő előtérbe helyezése">
+<!ENTITY tabcontrol.posRight "Új lap elhelyezése a jelenlegi laptól balra">
+<!ENTITY tabcontrol.noCloseHotkey "Ablak ne legyen bezárható a &apos;lap bezárás&apos; bill.kombinációval">
+<!ENTITY tabcontrol.tabWidth "Lapszélesség:">
+<!ENTITY tabcontrol.min "Min:">
+<!ENTITY tabcontrol.max "Max:">
+<!ENTITY tabcontrol.closeButtons.label "Bezárás gombok száma:">
+<!ENTITY tabcontrol.closeButtons.active "Egy, az aktív lapon">
+<!ENTITY tabcontrol.closeButtons.right "Egy, jobbra">
+<!ENTITY tabcontrol.closeButtons.all "Sok, minden lapon">
+<!ENTITY tabcontrol.closeButtons.none "Nincs bezárás gomb">
