@@ -21,11 +21,6 @@ onLoad:function() {
 	gBrowser.origAddTab=gBrowser.addTab;
 	gBrowser.addTab=gTabControl.addTab;
 
-	//conditionally mangle BrowserCloseTabOrWindow function
-	if (gTabControl.getPref('bool', 'tabcontrol.doNotCloseWinOnHotkey')) {
-		BrowserCloseTabOrWindow=gTabControl.BrowserCloseTabOrWindow;
-	}
-
 	//initial tabs' (or tabs') width
 	for (var i=0, t=null; t=gBrowser.mTabContainer.childNodes[i]; i++) {
 		t.minWidth=gTabControl.getPref('int', 'tabcontrol.tabMinWidth');
@@ -108,16 +103,6 @@ selectTab:function(aTab) {
 	}
 },
 
-BrowserCloseTabOrWindow:function() {
-	//NOPE!  only close tabs
-	if (gBrowser.localName == 'tabbrowser' &&
-		gBrowser.tabContainer.childNodes.length > 1
-	) {
-		gBrowser.removeCurrentTab();
-		return;
-	}
-},
-
 duplicateTab:function(aTab) {
 	if (aTab.localName!="tab") aTab=gBrowser.mCurrentTab;
 	var originalHistory=gBrowser.getBrowserForTab(aTab)
@@ -142,7 +127,6 @@ duplicateTab:function(aTab) {
 prefDefaults:{
 	'tabcontrol.focusLeftOnClose': true,
 	'tabcontrol.posRightOnAdd': true,
-	'tabcontrol.doNotCloseWinOnHotkey': true,
 	'tabcontrol.tabMinWidth': 30,
 	'tabcontrol.tabMaxWidth': 350,
 },

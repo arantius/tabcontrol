@@ -27,11 +27,6 @@
 		/>
 		<separator class="thin" />
 
-		<checkbox id='doNotCloseWinOnHotkey' prefstring='tabcontrol.doNotCloseWinOnHotkey'
-			label='&tabcontrol.noCloseHotkey;'
-		/>
-		<separator class="thin" />
-
 		<hbox align='center'>
 			<label value='&divertedWindowOpen.label;' control='divertedWindowOpen' />
 			<menulist prefstring='browser.link.open_newwindow.restriction'>
