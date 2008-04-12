@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "Ao pechar un separador enfocarase:">
+<!ENTITY focusTab.first "o primeiro">
+<!ENTITY focusTab.right "o da dereita">
+<!ENTITY focusTab.left "o da esquerda">
+<!ENTITY focusTab.last "o último">
+<!ENTITY focusTab.lastSelected "o último seleccionado">
+<!ENTITY focusTab.labelEnd ".">
+<!ENTITY divertedWindowOpen.label "Ventás emerxentes de JavaScript">
+<!ENTITY divertedWindowOpen.all "Non hai ningunha configuración adicional">
+<!ENTITY divertedWindowOpen.some "Permitir que as ventás emerxentes redimensionadas se abran nunha nova ventá">
+<!ENTITY divertedWindowOpen.none "Permitir todas as ventás emerxentes nunha nova ventá.">
+<!ENTITY duplicateTabMenu.label "Duplicar o separador">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Control de separadores">
+<!ENTITY tabcontrol.options "Opcións">
+<!ENTITY tabcontrol.focusLeft "Enfocar o separador esquerdo ao pechar o actual.">
+<!ENTITY tabcontrol.posRight "Colocar os separadores novos á dereita do actual.">
+<!ENTITY tabcontrol.noCloseHotkey "Non pechar está ventá coa tecla de acceso rápido do peche de separadores.">
+<!ENTITY tabcontrol.tabWidth "Largura do separador:">
+<!ENTITY tabcontrol.min "Mín.:">
+<!ENTITY tabcontrol.max "Máx.:">
+<!ENTITY tabcontrol.closeButtons.label "Botóns de pechar:">
+<!ENTITY tabcontrol.closeButtons.active "Un, no separador activo">
+<!ENTITY tabcontrol.closeButtons.right "Un, no separador da dereita">
+<!ENTITY tabcontrol.closeButtons.all "Moitos, en todos os separadores">
+<!ENTITY tabcontrol.closeButtons.none "Ningún">

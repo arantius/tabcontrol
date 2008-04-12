@@ -5,10 +5,10 @@
 <!ENTITY focusTab.last "última">
 <!ENTITY focusTab.lastSelected "última selecionada">
 <!ENTITY focusTab.labelEnd "aba">
-<!ENTITY divertedWindowOpen.label "popups JavaScript:">
+<!ENTITY divertedWindowOpen.label "popups de JavaScript:">
 <!ENTITY divertedWindowOpen.all "Nenhuma configuração adicional">
 <!ENTITY divertedWindowOpen.some "Permitir redimensionar popups abertos em nova janela">
-<!ENTITY divertedWindowOpen.none "Permitir todos os popups abrir em nova janela">
+<!ENTITY divertedWindowOpen.none "Permitir a abertura de todos os popups em nova janela">
 <!ENTITY duplicateTabMenu.label "Duplicar Aba">
 <!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tab Control">
@@ -17,8 +17,8 @@
 <!ENTITY tabcontrol.posRight "Posicionar novas abas a direita da aba atual">
 <!ENTITY tabcontrol.noCloseHotkey "Não fechar janela com a tecla de atalho para fechar aba">
 <!ENTITY tabcontrol.tabWidth "Largura da aba">
-<!ENTITY tabcontrol.min "Min">
-<!ENTITY tabcontrol.max "Max">
+<!ENTITY tabcontrol.min "Mín">
+<!ENTITY tabcontrol.max "Máx">
 <!ENTITY tabcontrol.closeButtons.label "Botões de Fechar:">
 <!ENTITY tabcontrol.closeButtons.active "Um, na aba atual">
 <!ENTITY tabcontrol.closeButtons.right "Um, à direita">

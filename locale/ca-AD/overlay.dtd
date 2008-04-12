@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "Quan tanqui un pestanya enfoca:">
+<!ENTITY focusTab.first "primera">
+<!ENTITY focusTab.right "dreta">
+<!ENTITY focusTab.left "esquerra">
+<!ENTITY focusTab.last "última">
+<!ENTITY focusTab.lastSelected "última sel·leccionada">
+<!ENTITY focusTab.labelEnd "pestanya">
+<!ENTITY divertedWindowOpen.label "Finestres emergents JavaScript:">
+<!ENTITY divertedWindowOpen.all "Cap paràmetre addicional">
+<!ENTITY divertedWindowOpen.some "Permet que finestres emergents redimensionades s&apos;obrin en una nova finestra">
+<!ENTITY divertedWindowOpen.none "Permet que totes les finestres emergents s&apos;obrin en una nova finestra">
+<!ENTITY duplicateTabMenu.label "Pestanyes dubplicades">
+<!ENTITY duplicateTabMenu.accesskey "D">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Opcions">
+<!ENTITY tabcontrol.focusLeft "Enfoca la pestanya de l&apos;esquerra quan tanqui la pestanya actual">
+<!ENTITY tabcontrol.posRight "Posicionar les noves pestanyes a la dreta de la pestanya actual">
+<!ENTITY tabcontrol.noCloseHotkey "No tanquis la finestra amb la drecera de teclat per tancar pestanyes">
+<!ENTITY tabcontrol.tabWidth "Amplada de la pestanya">
+<!ENTITY tabcontrol.min "Mínim:">
+<!ENTITY tabcontrol.max "Màxim:">
+<!ENTITY tabcontrol.closeButtons.label "Botons de tancar pestanya:">
+<!ENTITY tabcontrol.closeButtons.active "Un, a la pestanya activa">
+<!ENTITY tabcontrol.closeButtons.right "Un, a la dreta">
+<!ENTITY tabcontrol.closeButtons.all "Tots, a totes les pestanyes">
+<!ENTITY tabcontrol.closeButtons.none "Cap">
