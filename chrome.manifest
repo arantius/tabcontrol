@@ -7,11 +7,14 @@ overlay chrome://navigator/content/navigator.xul chrome://tabcontrol/content/tab
 style   chrome://global/content/customizeToolbar.xul    chrome://tabcontrol/skin/tabcontrol-overlay.css
 
 locale tabcontrol bg-BG locale/bg-BG/
+locale tabcontrol ca-AD locale/ca-AD/
+locale tabcontrol cs-CZ locale/cs-CZ/
 locale tabcontrol da-DK locale/da-DK/
 locale tabcontrol de-DE locale/de-DE/
 locale tabcontrol en-US locale/en-US/
 locale tabcontrol es-ES locale/es-ES/
 locale tabcontrol fr-FR locale/fr-FR/
+locale tabcontrol gl-ES locale/gl-ES/
 locale tabcontrol hr-HR locale/hr-HR/
 locale tabcontrol hu-HU locale/hu-HU/
 locale tabcontrol it-IT locale/it-IT/
