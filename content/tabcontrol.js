@@ -34,7 +34,7 @@ onLoad:function() {
 	var duplicateTabItem=document.createElement('menuitem');
 	duplicateTabItem.setAttribute('label', bundle.getString('duplicateTab'));
 	duplicateTabItem.setAttribute('accesskey', bundle.getString('duplicateTabAccessKey'));
-	duplicateTabItem.setAttribute('oncommand', 'gTabControl.duplicateTab(this);');
+	duplicateTabItem.setAttribute('oncommand', 'gTabControl.duplicateTab();');
 
 	var tabMenu=document
 		.getAnonymousElementByAttribute(gBrowser, 'anonid', 'tabContextMenu');
@@ -103,9 +103,11 @@ selectTab:function(aTab) {
 	}
 },
 
-duplicateTab:function(aTab) {
-	if (aTab.localName!="tab") aTab=gBrowser.mCurrentTab;
-	var originalHistory=gBrowser.getBrowserForTab(aTab)
+duplicateTab:function() {
+	var tabbrowser=document.getElementById('content');
+	var tab=tabbrowser.mContextTab;
+
+	var originalHistory=gBrowser.getBrowserForTab(tab)
 		.webNavigation.sessionHistory;
 
 	var newTab=gBrowser.addTab();
