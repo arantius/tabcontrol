@@ -26,19 +26,6 @@ onLoad:function() {
 		t.minWidth=gTabControl.getPref('int', 'tabcontrol.tabMinWidth');
 		t.maxWidth=gTabControl.getPref('int', 'tabcontrol.tabMaxWidth');
 	}
-
-	//get reference to string bundle
-	var bundle=document.getElementById('tabcontrol-bundle');
-
-	//insert item to duplicate tab
-	var duplicateTabItem=document.createElement('menuitem');
-	duplicateTabItem.setAttribute('label', bundle.getString('duplicateTab'));
-	duplicateTabItem.setAttribute('accesskey', bundle.getString('duplicateTabAccessKey'));
-	duplicateTabItem.setAttribute('oncommand', 'gTabControl.duplicateTab();');
-
-	var tabMenu=document
-		.getAnonymousElementByAttribute(gBrowser, 'anonid', 'tabContextMenu');
-	tabMenu.insertBefore(duplicateTabItem, tabMenu.firstChild);
 },
 
 onUnLoad:function() {
