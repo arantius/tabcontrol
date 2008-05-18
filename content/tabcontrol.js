@@ -49,12 +49,16 @@ onUnLoad:function() {
 
 /****************************** TAB MANIPULATION *****************************/
 
-addTab:function(aURI, aReferrerURI, aCharset, aPostData) {
+addTab:function(
+	aURI, aReferrerURI, aCharset, aPostData, aOwner, aAllowThirdPartyFixup
+) {
 	var posRight=gTabControl.getPref('bool', 'tabcontrol.posRightOnAdd');
 	var currTab=gBrowser.mCurrentTab;
 
 	//call the browser's real add tab function
-	var newTab=gBrowser.origAddTab(aURI, aReferrerURI, aCharset, aPostData);
+	var newTab=gBrowser.origAddTab(
+		aURI, aReferrerURI, aCharset, aPostData, aOwner, aAllowThirdPartyFixup
+	);
 
 	//shift the new tab into position
 	if (posRight && newTab.tPos!=currTab._tPos+1) {
@@ -98,7 +102,6 @@ selectTab:function(aTab) {
 	with (gBrowser) {
 		selectedTab=aTab;
 		mTabBox.selectedPanel=getBrowserForTab(mCurrentTab).parentNode;
-		mCurrentTab.selected = true;
 		updateCurrentBrowser();
 	}
 },
