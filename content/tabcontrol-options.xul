@@ -56,10 +56,10 @@
 			<label value='&tabcontrol.tabWidth;' />
 
 			<label value='&tabcontrol.min;' />
-			<textbox size='4' prefstring='tabcontrol.tabMinWidth' preftype='int' />
+			<textbox size='4' prefstring='browser.tabs.tabMinWidth' preftype='int' />
 
 			<label value='&tabcontrol.max;' />
-			<textbox size='4' prefstring='tabcontrol.tabMaxWidth' preftype='int' />
+			<textbox size='4' prefstring='browser.tabs.tabMaxWidth' preftype='int' />
 		</hbox>
 		<separator class='thin' />
 	</vbox>

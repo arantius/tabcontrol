@@ -20,12 +20,6 @@ onLoad:function() {
 	//mangle addTab function
 	gBrowser.origAddTab=gBrowser.addTab;
 	gBrowser.addTab=gTabControl.addTab;
-
-	//initial tabs' (or tabs') width
-	for (var i=0, t=null; t=gBrowser.mTabContainer.childNodes[i]; i++) {
-		t.minWidth=gTabControl.getPref('int', 'tabcontrol.tabMinWidth');
-		t.maxWidth=gTabControl.getPref('int', 'tabcontrol.tabMaxWidth');
-	}
 },
 
 onUnLoad:function() {
@@ -56,10 +50,6 @@ addTab:function(
 	if (!gTabControl.getPref('bool', 'browser.tabs.loadInBackground')) {
 		gTabControl.selectTab(newTab);
 	}
-
-	//tab width
-	newTab.minWidth=gTabControl.getPref('int', 'tabcontrol.tabMinWidth');
-	newTab.maxWidth=gTabControl.getPref('int', 'tabcontrol.tabMaxWidth');
 
 	return newTab;
 },
@@ -116,13 +106,6 @@ duplicateTab:function() {
 
 /******************************** PREFERENCES ********************************/
 
-prefDefaults:{
-	'tabcontrol.focusLeftOnClose': true,
-	'tabcontrol.posRightOnAdd': true,
-	'tabcontrol.tabMinWidth': 30,
-	'tabcontrol.tabMaxWidth': 350,
-},
-
 getPref:function(aType, aName) {
 	try {
 		switch(aType) {
@@ -131,9 +114,7 @@ getPref:function(aType, aName) {
 		case 'string':
 		default:       return this.prefObj.getCharPref(aName);
 		}
-	} catch (e) {
-		return gTabControl.prefDefaults[aName];
-	}
+	} catch (e) { }
 	return '';
 },
 
