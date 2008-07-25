@@ -65,14 +65,14 @@ removeTab:function(aTab) {
 		tabToSelect=gBrowser.mTabContainer.childNodes[aTab._tPos-1];
 	}
 
+	//set focus to the tab that we want
+	gTabControl.selectTab(tabToSelect);
+
 	//call the browser's real remove tab function
 	gBrowser.origRemoveTab(aTab);
 
 	//skip the rest if we don't need to focus a custom tab
 	if (null==tabToSelect) return;
-
-	//set focus to the tab that we want
-	gTabControl.selectTab(tabToSelect);
 },
 
 selectTab:function(aTab) {
