@@ -182,18 +182,9 @@ saveOptions:function() {
 	}
 
 	return true;
-},
+}
 
-/********************************* DEBUGGING *********************************/
-
-dumpErr:function(e) {
-	var s='Error in tabcontrol:  ';
-	s+='Line: '+e.lineNumber+'  ';
-	s+=e.name+': '+e.message+'\n';
-	dump(s);
-},
-
-}//close object gTabControl
+}
 
 //add listener for onload handler
 window.addEventListener('load', gTabControl.onLoad, false);
