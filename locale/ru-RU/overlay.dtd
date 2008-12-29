@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Применять настройки поумолчанию">
 <!ENTITY divertedWindowOpen.some "Разрешать открываться как новые окна всплывающим окнам с изменяемыми размерами">
 <!ENTITY divertedWindowOpen.none "Разрешать всем вспывающим окнам открываться как новые окна">
-<!ENTITY duplicateTabMenu.label "Дублировать вкладку">
-<!ENTITY duplicateTabMenu.accesskey "Д">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Настройки">
 <!ENTITY tabcontrol.focusLeft "При закрытии текущей вкладки переходить на левую вкладку">

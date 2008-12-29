@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Ingen yderligere indstillinger">
 <!ENTITY divertedWindowOpen.some "Tillad at åbne ændrede popups i nyt vindue">
 <!ENTITY divertedWindowOpen.none "Tillad alle popups at åbne i nyt vindue">
-<!ENTITY duplicateTabMenu.label "Duplikér faneblad">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Fanebladskontrol">
 <!ENTITY tabcontrol.options "Indstillinger">
 <!ENTITY tabcontrol.focusLeft "Fokusér på venstre faneblad ved lukning af nuværende faneblad">

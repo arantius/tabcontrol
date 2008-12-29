@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Keine zusätzlichen Einstellungen">
 <!ENTITY divertedWindowOpen.some "Popups mit geänderter Größe in einem neuen Fenster öffnen">
 <!ENTITY divertedWindowOpen.none "Alle Popups in einem neuen Fenser öffnen">
-<!ENTITY duplicateTabMenu.label "Tab duplizieren">
-<!ENTITY duplicateTabMenu.accesskey "d">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Optionen">
 <!ENTITY tabcontrol.focusLeft "Nach dem Schliessen eines Tabs den linken Tab fokusieren">

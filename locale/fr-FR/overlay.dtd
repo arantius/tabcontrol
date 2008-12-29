@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Pas de paramètres additionnels">
 <!ENTITY divertedWindowOpen.some "Autoriser l&apos;ouverture des popups redimensionnées dans une nouvelle fenêtre">
 <!ENTITY divertedWindowOpen.none "Autoriser l&apos;ouverture de toutes les popups dans une nouvelle fenêtre">
-<!ENTITY duplicateTabMenu.label "Dupliquer l&apos;onglet">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Options">
 <!ENTITY tabcontrol.focusLeft "À la fermeture de l&apos;onglet courant, activer l&apos;onglet de gauche">

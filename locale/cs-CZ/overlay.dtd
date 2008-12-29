@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Žádné další nastavení">
 <!ENTITY divertedWindowOpen.some "Povolit vyskakovací okna se změněnou velikostí">
 <!ENTITY divertedWindowOpen.none "Povolit všechna vyskakovací okna">
-<!ENTITY duplicateTabMenu.label "Duplikovat panel">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Možnosti">
 <!ENTITY tabcontrol.focusLeft "Při zavírání aktuálního panelu přejít na panel vlevo">

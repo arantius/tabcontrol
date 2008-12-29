@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Без додаткових налаштувань">
 <!ENTITY divertedWindowOpen.some "Дозволити вистрибуючим вікнам із змінним розміром відкриватись у новому вікні">
 <!ENTITY divertedWindowOpen.none "Дозволити всім вистрибуючим вікнам відкриватись у новому вікні">
-<!ENTITY duplicateTabMenu.label "Копіювати вкладку">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Налаштування">
 <!ENTITY tabcontrol.focusLeft "Фокусуватись на лівій вкладці коли закривається поточна">

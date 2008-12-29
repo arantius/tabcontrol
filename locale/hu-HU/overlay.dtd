@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "További beállítások nélkül">
 <!ENTITY divertedWindowOpen.some "Előbukkanó ablakok engedélyezése megadott nagysággal új ablakban">
 <!ENTITY divertedWindowOpen.none "Minden előbukkanó ablak engedélyezése új ablakban">
-<!ENTITY duplicateTabMenu.label "Lap megkettőzése">
-<!ENTITY duplicateTabMenu.accesskey "m">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Beállítások">
 <!ENTITY tabcontrol.focusLeft "Lap bezárásakor a tőle balra levő előtérbe helyezése">

@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Sin predisposiciones especiales">
 <!ENTITY divertedWindowOpen.some "Permitir que las redimensionadas se abran en nueva ventana">
 <!ENTITY divertedWindowOpen.none "Permitir que todas se abran en nueva ventana">
-<!ENTITY duplicateTabMenu.label "Duplicar pestaña">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Opciones">
 <!ENTITY tabcontrol.focusLeft "Enfocar pestaña a la izquierda tras cerrar la actual">

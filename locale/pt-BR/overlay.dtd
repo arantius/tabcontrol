@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Nenhuma configuração adicional">
 <!ENTITY divertedWindowOpen.some "Permitir redimensionar popups abertos em nova janela">
 <!ENTITY divertedWindowOpen.none "Permitir a abertura de todos os popups em nova janela">
-<!ENTITY duplicateTabMenu.label "Duplicar Aba">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Opções">
 <!ENTITY tabcontrol.focusLeft "Focar aba esquerda quando fechar a aba atual">

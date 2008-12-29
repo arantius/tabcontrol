@@ -85,27 +85,6 @@ selectTab:function(aTab) {
 	}
 },
 
-duplicateTab:function() {
-	var tabbrowser=document.getElementById('content');
-	var tab=tabbrowser.mContextTab;
-
-	var originalHistory=gBrowser.getBrowserForTab(tab)
-		.webNavigation.sessionHistory;
-
-	var newTab=gBrowser.addTab();
-	var newHistory=gBrowser.getBrowserForTab(newTab)
-		.webNavigation.sessionHistory;
-	newHistory.QueryInterface(Components.interfaces.nsISHistoryInternal);
-
-	if (newHistory.count>0) newHistory.PurgeHistory(newHistory.count);
-
-	for (var i=0; i<originalHistory.count; i++) {
-		newHistory.addEntry(originalHistory.getEntryAtIndex(i, false), true);
-	}
-	gBrowser.getBrowserForTab(newTab)
-		.webNavigation.gotoIndex(originalHistory.index);
-},
-
 /******************************** PREFERENCES ********************************/
 
 getPref:function(aType, aName) {

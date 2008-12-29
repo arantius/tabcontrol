@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Bez dodatnih postavki">
 <!ENTITY divertedWindowOpen.some "Dopusti skočne prozore promijenjenih veličina u novom prozoru">
 <!ENTITY divertedWindowOpen.none "Dopusti sve skočne prozore otvorene u novom prozoru">
-<!ENTITY duplicateTabMenu.label "Dupliciraj karticu">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Opcije">
 <!ENTITY tabcontrol.focusLeft "Fokusiraj lijevu karticu nakon zatvaranja trenutne kartice">

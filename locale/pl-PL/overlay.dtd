@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "- zastosuj ustawienia przeglądarki">
 <!ENTITY divertedWindowOpen.some "o zmiennej wielkości otwieraj w nowym oknie">
 <!ENTITY divertedWindowOpen.none "otwieraj wszystkie w nowym oknie">
-<!ENTITY duplicateTabMenu.label "Powiel kartę">
-<!ENTITY duplicateTabMenu.accesskey "P">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "- ustawienia">
 <!ENTITY tabcontrol.focusLeft "Gdy zamykasz aktywną kartę, uaktywnij kartę po lewej stronie">

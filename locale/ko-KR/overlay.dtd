@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "추가 설정 없음">
 <!ENTITY divertedWindowOpen.some "크기 변경이 가능한 팝업은 새 창으로 엽니다">
 <!ENTITY divertedWindowOpen.none "모든 팝업을 새 창으로 엽니다">
-<!ENTITY duplicateTabMenu.label "탭 복제">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "탭 제어">
 <!ENTITY tabcontrol.options "선택사항">
 <!ENTITY tabcontrol.focusLeft "현재 탭을 닫으면 왼쪽탭을 사용">

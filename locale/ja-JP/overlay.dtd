@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "追加設定を行わない">
 <!ENTITY divertedWindowOpen.some "大きさを変更可能なポップアップを新しいウィンドウで開く">
 <!ENTITY divertedWindowOpen.none "すべてのポップアップを新しいウィンドウで開く">
-<!ENTITY duplicateTabMenu.label "タブを複製">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "タブコントロール">
 <!ENTITY tabcontrol.options "オプション">
 <!ENTITY tabcontrol.focusLeft "表示中のタブが閉じられた時は左のタブを表示">

@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "无附加设置">
 <!ENTITY divertedWindowOpen.some "允许在新建窗口中打开可重定义大小的弹出窗口">
 <!ENTITY divertedWindowOpen.none "允许在新建窗口中打开全部弹出窗口">
-<!ENTITY duplicateTabMenu.label "复制标签">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "标签控制">
 <!ENTITY tabcontrol.options "选项">
 <!ENTITY tabcontrol.focusLeft "关闭当前标签后激活左侧标签">

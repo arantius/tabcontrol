@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "無附加設定">
 <!ENTITY divertedWindowOpen.some "允許開啟已調整大小的彈出視窗到新視窗">
 <!ENTITY divertedWindowOpen.none "允許開啟所有彈出視窗到新視窗">
-<!ENTITY duplicateTabMenu.label "複製分頁(D)">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "選項">
 <!ENTITY tabcontrol.focusLeft "當關閉本分頁時移到左分頁">

@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Няма допълнителни настройки">
 <!ENTITY divertedWindowOpen.some "Разрешено отваряне в нов прозорец на изскачащи прозорци с променен размер">
 <!ENTITY divertedWindowOpen.none "Разрешено отваряне в нов прозорец на всички изскачащи прозорци">
-<!ENTITY duplicateTabMenu.label "Създаване на копие на подпрозореца">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tab Control - управление на подпрозорци">
 <!ENTITY tabcontrol.options "Настройки">
 <!ENTITY tabcontrol.focusLeft "Фокусиране на ляв подпрозорец при затваряне на текущия">

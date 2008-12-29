@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Non hai ningunha configuración adicional">
 <!ENTITY divertedWindowOpen.some "Permitir que as ventás emerxentes redimensionadas se abran nunha nova ventá">
 <!ENTITY divertedWindowOpen.none "Permitir todas as ventás emerxentes nunha nova ventá.">
-<!ENTITY duplicateTabMenu.label "Duplicar o separador">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Control de separadores">
 <!ENTITY tabcontrol.options "Opcións">
 <!ENTITY tabcontrol.focusLeft "Enfocar o separador esquerdo ao pechar o actual.">

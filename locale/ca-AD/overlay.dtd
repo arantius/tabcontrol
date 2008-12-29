@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Cap paràmetre addicional">
 <!ENTITY divertedWindowOpen.some "Permet que finestres emergents redimensionades s&apos;obrin en una nova finestra">
 <!ENTITY divertedWindowOpen.none "Permet que totes les finestres emergents s&apos;obrin en una nova finestra">
-<!ENTITY duplicateTabMenu.label "Pestanyes dubplicades">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Opcions">
 <!ENTITY tabcontrol.focusLeft "Enfoca la pestanya de l&apos;esquerra quan tanqui la pestanya actual">

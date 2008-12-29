@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "Nici o setare in plus">
 <!ENTITY divertedWindowOpen.some "Permite deschiderea de pop-up-uri redimensionate intr-o fereastra noua">
 <!ENTITY divertedWindowOpen.none "Permite tuturor pop-up-urilor sa se deschida intr-o fereastra noua">
-<!ENTITY duplicateTabMenu.label "Duplica tab-ul">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Optiuni">
 <!ENTITY tabcontrol.focusLeft "Focus pe tab-ul din stanga cand este inchis tab-ul curent">

@@ -9,8 +9,6 @@
 <!ENTITY divertedWindowOpen.all "a nessuna ulteriore impostazione">
 <!ENTITY divertedWindowOpen.some "ad aprirsi quando non ridimensionati in una nuova finestra">
 <!ENTITY divertedWindowOpen.none "ad aprirsi tutti in una nuova finestra">
-<!ENTITY duplicateTabMenu.label "Duplica la scheda">
-<!ENTITY duplicateTabMenu.accesskey "D">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Opzioni">
 <!ENTITY tabcontrol.focusLeft "Porta in primo piano la scheda a sinistra quando si chiude la scheda attuale">
