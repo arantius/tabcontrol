@@ -44,6 +44,8 @@ addTab:function(
 	//shift the new tab into position
 	if (posRight && newTab.tPos!=currTab._tPos+1) {
 		gBrowser.moveTabTo(newTab, currTab._tPos+1);
+		//compatibility fix with CoLoUnREaDTabs (#152)
+		newTab.removeAttribute('selected');
 	}
 
 	//replicate broken focus-new-tab functionality
