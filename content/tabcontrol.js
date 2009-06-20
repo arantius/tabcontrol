@@ -33,8 +33,6 @@ onUnLoad:function() {
 addTab:function(
 	aURI, aReferrerURI, aCharset, aPostData, aOwner, aAllowThirdPartyFixup
 ) {
-	var event=gTabControl.findCallerEvent();
-
 	var posRight=gTabControl.getPref('bool', 'tabcontrol.posRightOnAdd');
 	var currTab=gBrowser.mCurrentTab;
 
