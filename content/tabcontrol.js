@@ -143,7 +143,7 @@ saveOptions:function() {
 		try {
 			gTabControl.setPref(
 				'bool',
-				'tabcontrol.'+checks[i].getAttribute('id'),
+				checks[i].getAttribute('prefstring'),
 				checks[i].checked
 			);
 		} catch (e) {  }

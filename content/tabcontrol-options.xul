@@ -27,6 +27,11 @@
 		/>
 		<separator class="thin" />
 
+		<checkbox id='searchInNewTab' prefstring='browser.search.openintab'
+			label='&tabcontrol.searchInNewTab;'
+		/>
+		<separator class="thin" />
+
 		<hbox align='center'>
 			<label value='&divertedWindowOpen.label;' control='divertedWindowOpen' />
 			<menulist prefstring='browser.link.open_newwindow.restriction'>
