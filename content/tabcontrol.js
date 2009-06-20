@@ -33,6 +33,8 @@ onUnLoad:function() {
 addTab:function(
 	aURI, aReferrerURI, aCharset, aPostData, aOwner, aAllowThirdPartyFixup
 ) {
+	var event=gTabControl.findCallerEvent();
+
 	var posRight=gTabControl.getPref('bool', 'tabcontrol.posRightOnAdd');
 	var currTab=gBrowser.mCurrentTab;
 
@@ -46,11 +48,6 @@ addTab:function(
 		gBrowser.moveTabTo(newTab, currTab._tPos+1);
 		//compatibility fix with CoLoUnREaDTabs (#152)
 		newTab.removeAttribute('selected');
-	}
-
-	//replicate broken focus-new-tab functionality
-	if (!gTabControl.getPref('bool', 'browser.tabs.loadInBackground')) {
-		gTabControl.selectTab(newTab);
 	}
 
 	return newTab;
@@ -72,9 +69,6 @@ removeTab:function(aTab) {
 
 	//call the browser's real remove tab function
 	gBrowser.origRemoveTab(aTab);
-
-	//skip the rest if we don't need to focus a custom tab
-	if (null==tabToSelect) return;
 },
 
 selectTab:function(aTab) {
