@@ -33,17 +33,37 @@ onUnLoad:function() {
 addTab:function(
 	aURI, aReferrerURI, aCharset, aPostData, aOwner, aAllowThirdPartyFixup
 ) {
-	var posRight=gTabControl.getPref('bool', 'tabcontrol.posRightOnAdd');
-	var currTab=gBrowser.mCurrentTab;
-
 	//call the browser's real add tab function
 	var newTab=gBrowser.origAddTab(
 		aURI, aReferrerURI, aCharset, aPostData, aOwner, aAllowThirdPartyFixup
 	);
 
 	//shift the new tab into position
-	if (posRight && newTab.tPos!=currTab._tPos+1) {
-		gBrowser.moveTabTo(newTab, currTab._tPos+1);
+	if (gTabControl.getPref('bool', 'tabcontrol.posRightOnAdd')) {
+		var afterTab=gBrowser.mCurrentTab.nextSibling;
+
+		if (gTabControl.getPref('bool', 'tabcontrol.leftRightGroup')) {
+			if (!gBrowser.mCurrentTab.hasAttribute('tabControlId')) {
+				gBrowser.mCurrentTab.setAttribute(
+					'tabControlId',
+					String(Math.random()).substr(2)
+				);
+			}
+
+			var tabId=gBrowser.mCurrentTab.getAttribute('tabControlId');
+			newTab.setAttribute('tabControlRefId', tabId);
+
+			while (
+				afterTab.getAttribute('tabControlRefId')==tabId
+				&& afterTab.nextSibling
+			) {
+				afterTab=afterTab.nextSibling;
+			}
+		}
+
+		dump('aftertab? '+(typeof afterTab)+'\n');
+		gBrowser.moveTabTo(newTab, afterTab._tPos);
+
 		//compatibility fix with CoLoUnREaDTabs (#152)
 		newTab.removeAttribute('selected');
 	}

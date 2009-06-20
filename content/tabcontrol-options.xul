@@ -25,6 +25,12 @@
 		<checkbox id='posRightOnAdd' prefstring='tabcontrol.posRightOnAdd'
 			label='&tabcontrol.posRight;'
 		/>
+		<hbox>
+			<box width='15'/>
+			<checkbox id='leftRightGroup' prefstring='tabcontrol.leftRightGroup'
+				label='&tabcontrol.leftRightGroup;'
+			/>
+		</hbox>
 		<separator class="thin" />
 
 		<checkbox id='searchInNewTab' prefstring='browser.search.openintab'
