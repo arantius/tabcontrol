@@ -5,16 +5,16 @@
 <!ENTITY focusTab.last "laatste">
 <!ENTITY focusTab.lastSelected "laatst geselecteerde">
 <!ENTITY focusTab.labelEnd "tabblad">
-<!ENTITY divertedWindowOpen.label "JavaScript popups:">
+<!ENTITY divertedWindowOpen.label "JavaScriptpop-ups:">
 <!ENTITY divertedWindowOpen.all "Geen aanvullende instellingen">
-<!ENTITY divertedWindowOpen.some "Openen in nieuw venster toestaan aan popups met gewijzigde afmetingen">
-<!ENTITY divertedWindowOpen.none "Openen in nieuw venster toestaan aan alle popups">
+<!ENTITY divertedWindowOpen.some "Openen in nieuw venster toestaan aan pop-ups met gewijzigde afmetingen">
+<!ENTITY divertedWindowOpen.none "Openen in nieuw venster toestaan aan alle pop-ups">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Opties">
 <!ENTITY tabcontrol.focusLeft "Focussen op linkertabblad wanneer de huidige tabblad wordt gesloten">
 <!ENTITY tabcontrol.posRight "Nieuwe tabbladen rechts van de huidige tabblad plaatsen">
-<!ENTITY tabcontrol.noCloseHotkey "Het venster niet met &apos;Tabblad sluiten&apos; sneltoets sluiten">
-<!ENTITY tabcontrol.tabWidth "Tabblad-breedte:">
+<!ENTITY tabcontrol.noCloseHotkey "Het venster niet met ‘Tabblad sluiten’-sneltoets sluiten">
+<!ENTITY tabcontrol.tabWidth "Tabbladbreedte:">
 <!ENTITY tabcontrol.min "Min:">
 <!ENTITY tabcontrol.max "Max:">
 <!ENTITY tabcontrol.closeButtons.label "Sluitknoppen:">

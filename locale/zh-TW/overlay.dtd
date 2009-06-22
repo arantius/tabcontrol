@@ -9,7 +9,7 @@
 <!ENTITY divertedWindowOpen.all "無附加設定">
 <!ENTITY divertedWindowOpen.some "允許開啟已調整大小的彈出視窗到新視窗">
 <!ENTITY divertedWindowOpen.none "允許開啟所有彈出視窗到新視窗">
-<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.title "分頁控制">
 <!ENTITY tabcontrol.options "選項">
 <!ENTITY tabcontrol.focusLeft "當關閉本分頁時移到左分頁">
 <!ENTITY tabcontrol.posRight "放置新分頁到本分頁的右面">

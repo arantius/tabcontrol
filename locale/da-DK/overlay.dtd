@@ -15,8 +15,8 @@
 <!ENTITY tabcontrol.posRight "Placer nye faneblade til højre for nuværende faneblad">
 <!ENTITY tabcontrol.noCloseHotkey "Luk ikke vinduet med luk faneblad genvejstasten">
 <!ENTITY tabcontrol.tabWidth "Fanebladsbredde">
-<!ENTITY tabcontrol.min "Mindst">
-<!ENTITY tabcontrol.max "Maksimalt">
+<!ENTITY tabcontrol.min "Min:">
+<!ENTITY tabcontrol.max "Maks:">
 <!ENTITY tabcontrol.closeButtons.label "Luk knapper:">
 <!ENTITY tabcontrol.closeButtons.active "En, på aktivt faneblad">
 <!ENTITY tabcontrol.closeButtons.right "En, til højre">
