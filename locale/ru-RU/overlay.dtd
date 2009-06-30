@@ -6,13 +6,15 @@
 <!ENTITY focusTab.lastSelected "последнюю выделенную вкладку">
 <!ENTITY focusTab.labelEnd ".">
 <!ENTITY divertedWindowOpen.label "Всплывающие окна JavaScript:">
-<!ENTITY divertedWindowOpen.all "Применять настройки поумолчанию">
+<!ENTITY divertedWindowOpen.all "Применять настройки по умолчанию">
 <!ENTITY divertedWindowOpen.some "Разрешать открываться как новые окна всплывающим окнам с изменяемыми размерами">
-<!ENTITY divertedWindowOpen.none "Разрешать всем вспывающим окнам открываться как новые окна">
+<!ENTITY divertedWindowOpen.none "Разрешать всем всплывающим окнам открываться как новые окна">
 <!ENTITY tabcontrol.title "Tab Control">
 <!ENTITY tabcontrol.options "Настройки">
 <!ENTITY tabcontrol.focusLeft "При закрытии текущей вкладки переходить на левую вкладку">
 <!ENTITY tabcontrol.posRight "Перемещать новые вкладки вправо от текущей вкладки">
+<!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
+<!ENTITY tabcontrol.searchInNewTab "Открывать все поисковые страницы в новой кладке">
 <!ENTITY tabcontrol.noCloseHotkey "Не закрывать окно по горячей клавише закрытия вкладок">
 <!ENTITY tabcontrol.tabWidth "Ширина вкладки">
 <!ENTITY tabcontrol.min "Минимальная">

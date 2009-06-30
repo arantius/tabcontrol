@@ -13,6 +13,8 @@
 <!ENTITY tabcontrol.options "Beállítások">
 <!ENTITY tabcontrol.focusLeft "Lap bezárásakor a tőle balra levő előtérbe helyezése">
 <!ENTITY tabcontrol.posRight "Új lap elhelyezése a jelenlegi laptól balra">
+<!ENTITY tabcontrol.leftRightGroup "Csoportban balról jobbra">
+<!ENTITY tabcontrol.searchInNewTab "Mindegyik keresés megnyitása új lapon">
 <!ENTITY tabcontrol.noCloseHotkey "Ablak ne legyen bezárható a &apos;lap bezárás&apos; bill.kombinációval">
 <!ENTITY tabcontrol.tabWidth "Lapszélesség:">
 <!ENTITY tabcontrol.min "Min:">

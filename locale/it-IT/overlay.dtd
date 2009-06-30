@@ -4,7 +4,7 @@
 <!ENTITY focusTab.left "la scheda a sinistra">
 <!ENTITY focusTab.last "l&apos;ultima scheda">
 <!ENTITY focusTab.lastSelected "l&apos;ultima scheda selezionata">
-<!ENTITY focusTab.labelEnd "tab">
+<!ENTITY focusTab.labelEnd " ">
 <!ENTITY divertedWindowOpen.label "Forza i pop-up JavaScript:">
 <!ENTITY divertedWindowOpen.all "a nessuna ulteriore impostazione">
 <!ENTITY divertedWindowOpen.some "ad aprirsi quando non ridimensionati in una nuova finestra">
@@ -13,6 +13,8 @@
 <!ENTITY tabcontrol.options "Opzioni">
 <!ENTITY tabcontrol.focusLeft "Porta in primo piano la scheda a sinistra quando si chiude la scheda attuale">
 <!ENTITY tabcontrol.posRight "Posiziona le nuove schede a destra della scheda attuale">
+<!ENTITY tabcontrol.leftRightGroup "Inverti l&apos;ordine di apertura delle schede">
+<!ENTITY tabcontrol.searchInNewTab "Apri i risultati della barra di ricerca in una nuova scheda">
 <!ENTITY tabcontrol.noCloseHotkey "Non chiudere la finestra con il tasto di chiusura rapida della scheda">
 <!ENTITY tabcontrol.tabWidth "Larghezza cartellino delle schede:">
 <!ENTITY tabcontrol.min "da">

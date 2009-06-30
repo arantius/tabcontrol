@@ -13,6 +13,8 @@
 <!ENTITY tabcontrol.options "Налаштування">
 <!ENTITY tabcontrol.focusLeft "Фокусуватись на лівій вкладці коли закривається поточна">
 <!ENTITY tabcontrol.posRight "Розташовувати нові вкладки праворуч від поточної">
+<!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
+<!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
 <!ENTITY tabcontrol.noCloseHotkey "Не закривати вікна &quot;гарячими&quot; клавішами закриття вкладок">
 <!ENTITY tabcontrol.tabWidth "Ширана вкладки:">
 <!ENTITY tabcontrol.min "Min:">

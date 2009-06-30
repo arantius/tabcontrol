@@ -13,6 +13,8 @@
 <!ENTITY tabcontrol.options "Optionen">
 <!ENTITY tabcontrol.focusLeft "Nach dem Schliessen eines Tabs den linken Tab fokusieren">
 <!ENTITY tabcontrol.posRight "Neue Tabs rechts vom aktuellen Tab öffnen">
+<!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
+<!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
 <!ENTITY tabcontrol.noCloseHotkey "Fenster nicht mit dem Hotkey &apos;Tab schliessen&apos; schliessen">
 <!ENTITY tabcontrol.tabWidth "Tab Breite:">
 <!ENTITY tabcontrol.min "Minimum:">

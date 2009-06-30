@@ -13,6 +13,8 @@
 <!ENTITY tabcontrol.options "Настройки">
 <!ENTITY tabcontrol.focusLeft "Фокусиране на ляв подпрозорец при затваряне на текущия">
 <!ENTITY tabcontrol.posRight "Поставяне на нови подпрозорци в дясно от текущия">
+<!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
+<!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
 <!ENTITY tabcontrol.noCloseHotkey "Не затваряй прозореца при затваряне на подпрозорец с &quot;горещ&quot; клавиш">
 <!ENTITY tabcontrol.tabWidth "Ширина на подпрозореца:">
 <!ENTITY tabcontrol.min "Мин.:">

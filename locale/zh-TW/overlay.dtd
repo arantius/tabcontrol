@@ -13,6 +13,8 @@
 <!ENTITY tabcontrol.options "選項">
 <!ENTITY tabcontrol.focusLeft "當關閉本分頁時移到左分頁">
 <!ENTITY tabcontrol.posRight "放置新分頁到本分頁的右面">
+<!ENTITY tabcontrol.leftRightGroup "在一個從左到右的群組內">
+<!ENTITY tabcontrol.searchInNewTab "於新分頁開啟所有搜尋">
 <!ENTITY tabcontrol.noCloseHotkey "不使用關閉熱鍵關閉視窗">
 <!ENTITY tabcontrol.tabWidth "分頁寬度：">
 <!ENTITY tabcontrol.min "最少：">

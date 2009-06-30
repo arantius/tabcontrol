@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "Кога се затвора фокус на јазичето:">
+<!ENTITY focusTab.first "прво">
+<!ENTITY focusTab.right "десно">
+<!ENTITY focusTab.left "лево">
+<!ENTITY focusTab.last "последно">
+<!ENTITY focusTab.lastSelected "последно избрано">
+<!ENTITY focusTab.labelEnd "јазиче">
+<!ENTITY divertedWindowOpen.label "JavaScript скокачки прозорци:">
+<!ENTITY divertedWindowOpen.all "Без дополнителни поставувања">
+<!ENTITY divertedWindowOpen.some "Дозволи променетите во големина скокачки прозорци да се отворат во нов прозорец">
+<!ENTITY divertedWindowOpen.none "Дозволи сите скокачки прозорци да се отворат во нов прозорец">
+<!ENTITY tabcontrol.title "Контрола на јазичето">
+<!ENTITY tabcontrol.options "Опции">
+<!ENTITY tabcontrol.focusLeft "Фокусирај го левото јазиче кога се затвора тековното јазиче">
+<!ENTITY tabcontrol.posRight "Постави ги новите јазичиња десно од тековното јазиче">
+<!ENTITY tabcontrol.leftRightGroup "Во група од лево на десно">
+<!ENTITY tabcontrol.searchInNewTab "Отвори ги сите пребарувања во ново јазиче">
+<!ENTITY tabcontrol.noCloseHotkey "Не го затворај прозорецот со копчето за брз пристап за затворање на јазичето">
+<!ENTITY tabcontrol.tabWidth "Ширина на јазичето:">
+<!ENTITY tabcontrol.min "Мин:">
+<!ENTITY tabcontrol.max "Макс:">
+<!ENTITY tabcontrol.closeButtons.label "Затвори ги копчињата:">
+<!ENTITY tabcontrol.closeButtons.active "Едно, на активното јазиче">
+<!ENTITY tabcontrol.closeButtons.right "Едно, десно">
+<!ENTITY tabcontrol.closeButtons.all "Многу, на сите јазичиња">
+<!ENTITY tabcontrol.closeButtons.none "Ниедно">

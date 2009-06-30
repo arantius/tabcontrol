@@ -13,6 +13,8 @@
 <!ENTITY tabcontrol.options "Opties">
 <!ENTITY tabcontrol.focusLeft "Focussen op linkertabblad wanneer de huidige tabblad wordt gesloten">
 <!ENTITY tabcontrol.posRight "Nieuwe tabbladen rechts van de huidige tabblad plaatsen">
+<!ENTITY tabcontrol.leftRightGroup "in een links-naar-rechts-groep">
+<!ENTITY tabcontrol.searchInNewTab "Alle zoekopdrachten in een nieuw tabblad openen">
 <!ENTITY tabcontrol.noCloseHotkey "Het venster niet met ‘Tabblad sluiten’-sneltoets sluiten">
 <!ENTITY tabcontrol.tabWidth "Tabbladbreedte:">
 <!ENTITY tabcontrol.min "Min:">

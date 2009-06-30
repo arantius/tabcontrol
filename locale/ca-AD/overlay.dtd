@@ -13,6 +13,8 @@
 <!ENTITY tabcontrol.options "Opcions">
 <!ENTITY tabcontrol.focusLeft "Enfoca la pestanya de l&apos;esquerra quan tanqui la pestanya actual">
 <!ENTITY tabcontrol.posRight "Posicionar les noves pestanyes a la dreta de la pestanya actual">
+<!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
+<!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
 <!ENTITY tabcontrol.noCloseHotkey "No tanquis la finestra amb la drecera de teclat per tancar pestanyes">
 <!ENTITY tabcontrol.tabWidth "Amplada de la pestanya">
 <!ENTITY tabcontrol.min "Mínim:">
