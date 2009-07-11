@@ -38,6 +38,9 @@ addTab:function(
 		aURI, aReferrerURI, aCharset, aPostData, aOwner, aAllowThirdPartyFixup
 	);
 
+	//#294: stop processing if there is no URI.
+	if ('undefined'==typeof aURI) return newTab;
+
 	//shift the new tab into position
 	if (gTabControl.getPref('bool', 'tabcontrol.posRightOnAdd')) {
 		var afterTab=gBrowser.mCurrentTab.nextSibling;
