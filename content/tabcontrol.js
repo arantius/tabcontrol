@@ -20,6 +20,10 @@ onLoad:function() {
 	//mangle addTab function
 	gBrowser.origAddTab=gBrowser.addTab;
 	gBrowser.addTab=gTabControl.addTab;
+
+	var searchbar=document.getElementById('searchbar')
+	gTabControl.origHandleSearchCommand=searchbar.handleSearchCommand;
+	searchbar.handleSearchCommand=gTabControl.handleSearchCommand
 },
 
 onUnLoad:function() {
@@ -94,6 +98,21 @@ selectTab:function(aTab) {
 		selectedTab=aTab;
 		mTabBox.selectedPanel=getBrowserForTab(mCurrentTab).parentNode;
 		updateCurrentBrowser();
+	}
+},
+
+handleSearchCommand:function(aEvent) {
+	var searchbar=document.getElementById('searchbar')
+
+	if ('keypress'==aEvent.type
+		&& 13==aEvent.which
+		&& aEvent.ctrlKey
+	) {
+		//specifically open search in new tab
+		searchbar.doSearch(searchbar._textbox.value, 'tab');
+	} else {
+		//call original function to handle things as it will
+		gTabControl.origHandleSearchCommand.apply(searchbar, [aEvent]);
 	}
 },
 
