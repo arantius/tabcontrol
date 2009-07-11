@@ -13,8 +13,8 @@
 <!ENTITY tabcontrol.options "Настройки">
 <!ENTITY tabcontrol.focusLeft "При закрытии текущей вкладки переходить на левую вкладку">
 <!ENTITY tabcontrol.posRight "Перемещать новые вкладки вправо от текущей вкладки">
-<!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
-<!ENTITY tabcontrol.searchInNewTab "Открывать все поисковые страницы в новой кладке">
+<!ENTITY tabcontrol.leftRightGroup "В одной группе">
+<!ENTITY tabcontrol.searchInNewTab "Открывать все поисковые страницы в новой вкладке">
 <!ENTITY tabcontrol.noCloseHotkey "Не закрывать окно по горячей клавише закрытия вкладок">
 <!ENTITY tabcontrol.tabWidth "Ширина вкладки">
 <!ENTITY tabcontrol.min "Минимальная">
