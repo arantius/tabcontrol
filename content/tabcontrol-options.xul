@@ -2,13 +2,13 @@
 <!DOCTYPE window SYSTEM "chrome://tabcontrol/locale/overlay.dtd">
 <?xml-stylesheet href="chrome://browser/skin/" type="text/css"?>
 
-<dialog id="tabcontrol-options"
+<dialog id="tabcontrol-options2"
 	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
 	title="&tabcontrol.title; - &tabcontrol.options;"
 	buttons="accept, cancel"
 	onload="gTabControl.loadOptions();"
 	ondialogaccept="gTabControl.saveOptions();"
-	persist="width height screenX screenY"
+	persist="screenX screenY"
 >
 	<script type="application/x-javascript" src="chrome://tabcontrol/content/tabcontrol.js"></script>
 
@@ -35,6 +35,11 @@
 
 		<checkbox id='searchInNewTab' prefstring='browser.search.openintab'
 			label='&tabcontrol.searchInNewTab;'
+		/>
+		<separator class="thin" />
+
+		<checkbox id='closeWithLastTab' prefstring='tabcontrol.closeWithLastTab'
+			label='&tabcontrol.closeWithLastTab;'
 		/>
 		<separator class="thin" />
 

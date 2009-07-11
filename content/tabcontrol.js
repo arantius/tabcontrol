@@ -83,10 +83,10 @@ removeTab:function(aTab) {
 		gTabControl.selectTab(
 			gBrowser.mTabContainer.childNodes[aTab._tPos-1]
 		);
-
-		//call the browser's real remove tab function
-		gBrowser.origRemoveTab(aTab);
 	}
+
+	//call the browser's real remove tab function
+	gBrowser.origRemoveTab(aTab);
 },
 
 selectTab:function(aTab) {
