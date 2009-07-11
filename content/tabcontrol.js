@@ -61,7 +61,6 @@ addTab:function(
 			}
 		}
 
-		dump('aftertab? '+(typeof afterTab)+'\n');
 		gBrowser.moveTabTo(newTab, afterTab._tPos);
 
 		//compatibility fix with CoLoUnREaDTabs (#152)
@@ -72,21 +71,19 @@ addTab:function(
 },
 
 removeTab:function(aTab) {
-	var tabToSelect=null;
-	var focusLeft=gTabControl.getPref('bool', 'tabcontrol.focusLeftOnClose');
-
 	//if we're configured to, get set to focus left tab
-	if (focusLeft && aTab._tPos>0 &&
-		gBrowser.mCurrentTab==aTab
+	if (gTabControl.getPref('bool', 'tabcontrol.focusLeftOnClose')
+		&& aTab._tPos>0
+		&& gBrowser.mCurrentTab==aTab
 	) {
-		tabToSelect=gBrowser.mTabContainer.childNodes[aTab._tPos-1];
+		//set focus to the tab that we want
+		gTabControl.selectTab(
+			gBrowser.mTabContainer.childNodes[aTab._tPos-1]
+		);
+
+		//call the browser's real remove tab function
+		gBrowser.origRemoveTab(aTab);
 	}
-
-	//set focus to the tab that we want
-	gTabControl.selectTab(tabToSelect);
-
-	//call the browser's real remove tab function
-	gBrowser.origRemoveTab(aTab);
 },
 
 selectTab:function(aTab) {
