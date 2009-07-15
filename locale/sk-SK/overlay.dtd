@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "Umiestniť novú kartu napravo od aktuálnej">
 <!ENTITY tabcontrol.leftRightGroup "V skupine zľava-doprava">
 <!ENTITY tabcontrol.searchInNewTab "Otvárať všetky vyhľadávania na novej karte">
-<!ENTITY tabcontrol.noCloseHotkey "Nezatvárať okno stlačením klávesovej skratky">
+<!ENTITY tabcontrol.closeWithLastTab "Pri zatvorení poslednej karty nezatvárať celé okno">
 <!ENTITY tabcontrol.tabWidth "Šírka karty:">
 <!ENTITY tabcontrol.min "Min:">
 <!ENTITY tabcontrol.max "Max:">

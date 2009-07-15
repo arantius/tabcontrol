@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "Posiziona le nuove schede a destra della scheda attuale">
 <!ENTITY tabcontrol.leftRightGroup "Inverti l&apos;ordine di apertura delle schede">
 <!ENTITY tabcontrol.searchInNewTab "Apri i risultati della barra di ricerca in una nuova scheda">
-<!ENTITY tabcontrol.noCloseHotkey "Non chiudere la finestra con il tasto di chiusura rapida della scheda">
+<!ENTITY tabcontrol.closeWithLastTab "Non chiudere la finestra del browser quando si chiude l&apos;ultima scheda">
 <!ENTITY tabcontrol.tabWidth "Larghezza cartellino delle schede:">
 <!ENTITY tabcontrol.min "da">
 <!ENTITY tabcontrol.max "a">

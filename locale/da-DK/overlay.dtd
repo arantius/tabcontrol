@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "Placer nye faneblade til højre for nuværende faneblad">
 <!ENTITY tabcontrol.leftRightGroup "I en venstre-til-højre-gruppe">
 <!ENTITY tabcontrol.searchInNewTab "Åbn alle søgninger i et nyt faneblad">
-<!ENTITY tabcontrol.noCloseHotkey "Luk ikke vinduet med luk faneblad-genvejstasten">
+<!ENTITY tabcontrol.closeWithLastTab "Luk ikke vindue med sidste faneblad">
 <!ENTITY tabcontrol.tabWidth "Fanebladsbredde">
 <!ENTITY tabcontrol.min "Min:">
 <!ENTITY tabcontrol.max "Maks:">

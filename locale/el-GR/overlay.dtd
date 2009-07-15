@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "Τοποθέτηση νέων καρτελών δεξιά της τρέχουσας">
 <!ENTITY tabcontrol.leftRightGroup "Ομαδοποίημένες αριστερά προς δεξιά">
 <!ENTITY tabcontrol.searchInNewTab "Άνοιγμα όλων των αναζητήσεων σε νέες καρτέλες">
-<!ENTITY tabcontrol.noCloseHotkey "Να μην κλείνει το παράθυρο με την συντόμευση για κλείσιμο καρτέλας">
+<!ENTITY tabcontrol.closeWithLastTab "Να μην κλείνει το παράθυρο μαζί με την τελευταία καρτέλα">
 <!ENTITY tabcontrol.tabWidth "Μήκος καρτέλας:">
 <!ENTITY tabcontrol.min "Ελάχιστο:">
 <!ENTITY tabcontrol.max "Μέγιστο:">

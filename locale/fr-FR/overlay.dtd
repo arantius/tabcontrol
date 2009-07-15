@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "Positionner les nouveaux onglets à la droite de l&apos;onglet courant">
 <!ENTITY tabcontrol.leftRightGroup "Dans un groupe de gauche à droite">
 <!ENTITY tabcontrol.searchInNewTab "Ouvrir toutes les recherches dans un nouvel onglet">
-<!ENTITY tabcontrol.noCloseHotkey "Ne pas fermer la fenêtre avec la touche de fermeture rapide de l&apos;onglet">
+<!ENTITY tabcontrol.closeWithLastTab "Do not close window with last tab">
 <!ENTITY tabcontrol.tabWidth "Largeur des onglets :">
 <!ENTITY tabcontrol.min "Min :">
 <!ENTITY tabcontrol.max "Max :">

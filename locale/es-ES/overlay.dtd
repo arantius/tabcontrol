@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "Colocar las nuevas pestañas a la derecha de la actual">
 <!ENTITY tabcontrol.leftRightGroup "En un grupo de izquierda a derecha">
 <!ENTITY tabcontrol.searchInNewTab "Abrir todas las búsquedas en nueva pestaña">
-<!ENTITY tabcontrol.noCloseHotkey "No permitir cerrar ventana con tecla de acceso rápido de cierre de pestañas">
+<!ENTITY tabcontrol.closeWithLastTab "No cerrar la ventana al cerrar la última pestaña">
 <!ENTITY tabcontrol.tabWidth "Ancho de pestaña:">
 <!ENTITY tabcontrol.min "Mín:">
 <!ENTITY tabcontrol.max "Máx:">

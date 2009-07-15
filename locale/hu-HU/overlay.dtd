@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "Új lap elhelyezése a jelenlegi laptól balra">
 <!ENTITY tabcontrol.leftRightGroup "Csoportban balról jobbra">
 <!ENTITY tabcontrol.searchInNewTab "Mindegyik keresés megnyitása új lapon">
-<!ENTITY tabcontrol.noCloseHotkey "Ablak ne legyen bezárható a &apos;lap bezárás&apos; bill.kombinációval">
+<!ENTITY tabcontrol.closeWithLastTab "Ne zárja be az ablakot az utolsó lappal">
 <!ENTITY tabcontrol.tabWidth "Lapszélesség:">
 <!ENTITY tabcontrol.min "Min:">
 <!ENTITY tabcontrol.max "Max:">

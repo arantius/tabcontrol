@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "Pozitioneaza noile taburi la dreapta tabului curent">
 <!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
 <!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
-<!ENTITY tabcontrol.noCloseHotkey "Nu inchide fereastra cu tasta de inchidere a taburilor">
+<!ENTITY tabcontrol.closeWithLastTab "Do not close window with last tab">
 <!ENTITY tabcontrol.tabWidth "Latime tab:">
 <!ENTITY tabcontrol.min "Min:">
 <!ENTITY tabcontrol.max "Max:">
