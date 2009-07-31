@@ -38,8 +38,8 @@
 		/>
 		<separator class="thin" />
 
-		<checkbox id='closeWithLastTab' prefstring='tabcontrol.closeWithLastTab'
-			label='&tabcontrol.closeWithLastTab;'
+		<checkbox id='closeWithLastTab' prefstring='browser.tabs.closeWindowWithLastTab'
+			label='&tabcontrol.doCloseWithLastTab;'
 		/>
 		<separator class="thin" />
 
