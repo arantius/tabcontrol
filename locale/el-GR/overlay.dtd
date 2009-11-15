@@ -13,9 +13,9 @@
 <!ENTITY tabcontrol.options "Επιλογές">
 <!ENTITY tabcontrol.focusLeft "Εστίαση στην αριστερή καρτέλα όταν κλείσει η τρέχουσα">
 <!ENTITY tabcontrol.posRight "Τοποθέτηση νέων καρτελών δεξιά της τρέχουσας">
-<!ENTITY tabcontrol.leftRightGroup "Ομαδοποίημένες αριστερά προς δεξιά">
+<!ENTITY tabcontrol.leftRightGroup "Ομαδοποιημένες αριστερά προς δεξιά">
 <!ENTITY tabcontrol.searchInNewTab "Άνοιγμα όλων των αναζητήσεων σε νέες καρτέλες">
-<!ENTITY tabcontrol.closeWithLastTab "Να μην κλείνει το παράθυρο μαζί με την τελευταία καρτέλα">
+<!ENTITY tabcontrol.doCloseWithLastTab "Να κλείνει το παράθυρο όταν κλείνει και η τελευταία καρτέλα">
 <!ENTITY tabcontrol.tabWidth "Μήκος καρτέλας:">
 <!ENTITY tabcontrol.min "Ελάχιστο:">
 <!ENTITY tabcontrol.max "Μέγιστο:">

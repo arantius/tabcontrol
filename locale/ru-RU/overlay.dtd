@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "Перемещать новые вкладки вправо от текущей вкладки">
 <!ENTITY tabcontrol.leftRightGroup "В одной группе">
 <!ENTITY tabcontrol.searchInNewTab "Открывать все поисковые страницы в новой вкладке">
-<!ENTITY tabcontrol.closeWithLastTab "Не закрывать окно при закрытии последней вкладки">
+<!ENTITY tabcontrol.doCloseWithLastTab "Закрывать окна при закрытии последней вкладки">
 <!ENTITY tabcontrol.tabWidth "Ширина вкладки">
 <!ENTITY tabcontrol.min "Минимальная">
 <!ENTITY tabcontrol.max "Максимальная">

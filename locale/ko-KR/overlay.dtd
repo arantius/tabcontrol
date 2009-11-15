@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "현재 탭의 오른쪽에 새 탭을 위치">
 <!ENTITY tabcontrol.leftRightGroup "그룹의 왼쪽에서 오른쪽으로">
 <!ENTITY tabcontrol.searchInNewTab "새 탭으로 모든 검색 열기">
-<!ENTITY tabcontrol.closeWithLastTab "마지막 탭을 닫을때 창을 닫지 않음">
+<!ENTITY tabcontrol.doCloseWithLastTab "마지막 탭과 함께 창도 닫음">
 <!ENTITY tabcontrol.tabWidth "탭 넓이:">
 <!ENTITY tabcontrol.min "최소:">
 <!ENTITY tabcontrol.max "최대:">

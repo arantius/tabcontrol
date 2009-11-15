@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "Position new tabs to right of current tab">
 <!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
 <!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
-<!ENTITY tabcontrol.closeWithLastTab "Do not close window with last tab">
+<!ENTITY tabcontrol.doCloseWithLastTab "Do close window with last tab">
 <!ENTITY tabcontrol.tabWidth "Tab width:">
 <!ENTITY tabcontrol.min "Min:">
 <!ENTITY tabcontrol.max "Max:">

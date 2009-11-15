@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "定位新标签位置在当前标签右侧">
 <!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
 <!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
-<!ENTITY tabcontrol.closeWithLastTab "Do not close window with last tab">
+<!ENTITY tabcontrol.doCloseWithLastTab "Do close window with last tab">
 <!ENTITY tabcontrol.tabWidth "标签宽度：">
 <!ENTITY tabcontrol.min "最小：">
 <!ENTITY tabcontrol.max "最大：">

@@ -15,7 +15,7 @@
 <!ENTITY tabcontrol.posRight "Umisťovat nové panely napravo od aktuálního panelu">
 <!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
 <!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
-<!ENTITY tabcontrol.closeWithLastTab "Do not close window with last tab">
+<!ENTITY tabcontrol.doCloseWithLastTab "Do close window with last tab">
 <!ENTITY tabcontrol.tabWidth "Šířka panelu">
 <!ENTITY tabcontrol.min "Min:">
 <!ENTITY tabcontrol.max "Max:">
