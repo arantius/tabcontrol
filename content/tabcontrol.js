@@ -38,9 +38,17 @@ addTab:function(
 	aURI, aReferrerURI, aCharset, aPostData, aOwner, aAllowThirdPartyFixup
 ) {
 	//call the browser's real add tab function
-	var newTab=gBrowser.origAddTab(
-		aURI, aReferrerURI, aCharset, aPostData, aOwner, aAllowThirdPartyFixup
-	);
+	var newTab;
+	if (2==arguments.length
+		&& 'object'==typeof arguments[1] 
+		&& !(arguments[1] instanceof Ci.nsIURI)
+	) {
+		newTab=gBrowser.origAddTab(aURI, aReferrerURI);
+	} else {
+		newTab=gBrowser.origAddTab(
+			aURI, aReferrerURI, aCharset, aPostData, aOwner, aAllowThirdPartyFixup
+		);
+	}
 
 	//#294: stop processing if there is no URI.
 	if ('undefined'==typeof aURI) return newTab;
