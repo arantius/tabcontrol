@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "לאחר סגירת לשונית התמקד ב:">
+<!ENTITY focusTab.first "הראשון">
+<!ENTITY focusTab.right "הימני">
+<!ENTITY focusTab.left "השמאלי">
+<!ENTITY focusTab.last "האחרון">
+<!ENTITY focusTab.lastSelected "האחרון שנבחר">
+<!ENTITY focusTab.labelEnd "לשונית">
+<!ENTITY divertedWindowOpen.label "חלון קופץ של ג'אווה סקריפט:">
+<!ENTITY divertedWindowOpen.all "ללא הגדרות נוספות">
+<!ENTITY divertedWindowOpen.some "הרשה לחלונות קופצים שגודלם משתנה להיפתח בחלון חדש">
+<!ENTITY divertedWindowOpen.none "הרשה לכל החלונות הקופצים להיפתח בחלון חדש">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "אפשרויות">
+<!ENTITY tabcontrol.focusLeft "התמקדות בלשונית שמאלית בסגירת לשונית נוכחית">
+<!ENTITY tabcontrol.posRight "מיקום לשוניות חדשות מימין ללשונית הנוכחית">
+<!ENTITY tabcontrol.leftRightGroup "בקבוצת שמאל לימין">
+<!ENTITY tabcontrol.searchInNewTab "פתיחת כל החיפושים בלשונית חדשה">
+<!ENTITY tabcontrol.doCloseWithLastTab "סגירת החלון עם הלשונית האחרונה">
+<!ENTITY tabcontrol.tabWidth "רוחב לשונית:">
+<!ENTITY tabcontrol.min "מינימום:">
+<!ENTITY tabcontrol.max "מקסימום:">
+<!ENTITY tabcontrol.closeButtons.label "כפתורי סגירה:">
+<!ENTITY tabcontrol.closeButtons.active "אחד, בלשונית הפעילה">
+<!ENTITY tabcontrol.closeButtons.right "אחד, בשמאל">
+<!ENTITY tabcontrol.closeButtons.all "הרבה, על כל הלשוניות">
+<!ENTITY tabcontrol.closeButtons.none "אף אחד">

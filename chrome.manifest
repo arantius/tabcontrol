@@ -14,8 +14,10 @@ locale tabcontrol de-DE locale/de-DE/
 locale tabcontrol el-GR locale/el-GR/
 locale tabcontrol en-US locale/en-US/
 locale tabcontrol es-ES locale/es-ES/
+locale tabcontrol fr locale/fr/
 locale tabcontrol fr-FR locale/fr-FR/
 locale tabcontrol gl-ES locale/gl-ES/
+locale tabcontrol he-IL locale/he-IL/
 locale tabcontrol hr-HR locale/hr-HR/
 locale tabcontrol hu-HU locale/hu-HU/
 locale tabcontrol it-IT locale/it-IT/
