@@ -14,6 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "Focus left tab when closing current tab">
 <!ENTITY tabcontrol.posRight "Position new tabs to right of current tab">
 <!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
+<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
 <!ENTITY tabcontrol.doCloseWithLastTab "Do close window with last tab">
 <!ENTITY tabcontrol.tabWidth "Tab width:">

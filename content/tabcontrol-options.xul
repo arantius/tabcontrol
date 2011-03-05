@@ -43,6 +43,11 @@
 		/>
 		<separator class="thin" />
 
+		<checkbox id='showQuitWarning' prefstring='browser.showQuitWarning'
+			label='&tabcontrol.showQuitWarning;'
+		/>
+		<separator class="thin" />
+
 		<hbox align='center'>
 			<label value='&divertedWindowOpen.label;' control='divertedWindowOpen' />
 			<menulist prefstring='browser.link.open_newwindow.restriction'>
