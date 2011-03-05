@@ -23,6 +23,10 @@ onLoad:function() {
 	gBrowser.origAddTab=gBrowser.addTab;
 	gBrowser.addTab=gTabControl.addTab;
 
+	//detect tab change
+	gBrowser.tabContainer.addEventListener(
+		"TabSelect", gTabControl.changeTab, false);
+
 	var searchbar=document.getElementById('searchbar');
 	gTabControl.origHandleSearchCommand=searchbar.handleSearchCommand;
 	searchbar.handleSearchCommand=gTabControl.handleSearchCommand;
@@ -119,6 +123,15 @@ selectTab:function(aTab) {
 		selectedTab=aTab;
 		mTabBox.selectedPanel=getBrowserForTab(mCurrentTab).parentNode;
 		updateCurrentBrowser();
+	}
+},
+
+changeTab:function(aEvent) {
+	// #433 Break left-to-right groupings when selecting tabs.
+	if (gTabControl.getPref('bool', 'browser.tabs.loadInBackground')) {
+		for (var i=0, tab=null; tab=gBrowser.tabs[i]; i++) {
+			tab.removeAttribute('tabControlId');
+		}
 	}
 },
 
