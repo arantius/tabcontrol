@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "Gdy zamykasz aktywną kartę uaktywnij">
+<!ENTITY focusTab.first "pierwszą">
+<!ENTITY focusTab.right "po prawej stronie">
+<!ENTITY focusTab.left "po lewej stronie">
+<!ENTITY focusTab.last "ostatnią">
+<!ENTITY focusTab.lastSelected "ostatnio otwartą">
+<!ENTITY focusTab.labelEnd "kartę">
+<!ENTITY divertedWindowOpen.label "Wyskakujące okienka">
+<!ENTITY divertedWindowOpen.all "- zastosuj ustawienia przeglądarki">
+<!ENTITY divertedWindowOpen.some "o zmiennej wielkości otwieraj w nowym oknie">
+<!ENTITY divertedWindowOpen.none "otwieraj wszystkie w nowym oknie">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "- ustawienia">
+<!ENTITY tabcontrol.focusLeft "Gdy zamykasz aktywną kartę, uaktywnij kartę po lewej stronie">
+<!ENTITY tabcontrol.posRight "Nowe karty otwieraj po prawej stronie aktywnej karty">
+<!ENTITY tabcontrol.leftRightGroup "W grupie od lewej do prawej">
+<!ENTITY tabcontrol.searchInNewTab "Otwieraj wyniki wyszukiwania w nowych kartach">
+<!ENTITY tabcontrol.doCloseWithLastTab "Zamykaj okno z ostatnią kartą">
+<!ENTITY tabcontrol.tabWidth "Szerokość etykiet kart:">
+<!ENTITY tabcontrol.min "Minimalna">
+<!ENTITY tabcontrol.max "Maksymalna">
+<!ENTITY tabcontrol.closeButtons.label "Przycisk zamykania wyświetlaj">
+<!ENTITY tabcontrol.closeButtons.active "tylko na aktywnej karcie">
+<!ENTITY tabcontrol.closeButtons.right "na pasku kart po prawej stronie">
+<!ENTITY tabcontrol.closeButtons.all "na wszystkich kartach">
+<!ENTITY tabcontrol.closeButtons.none "- bez przycisków">

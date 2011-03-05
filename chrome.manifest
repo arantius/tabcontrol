@@ -9,8 +9,11 @@ style   chrome://global/content/customizeToolbar.xul    chrome://tabcontrol/skin
 locale tabcontrol bg-BG locale/bg-BG/
 locale tabcontrol ca-AD locale/ca-AD/
 locale tabcontrol cs-CZ locale/cs-CZ/
+locale tabcontrol da locale/da/
 locale tabcontrol da-DK locale/da-DK/
+locale tabcontrol de locale/de/
 locale tabcontrol de-DE locale/de-DE/
+locale tabcontrol el locale/el/
 locale tabcontrol el-GR locale/el-GR/
 locale tabcontrol en-US locale/en-US/
 locale tabcontrol es-ES locale/es-ES/
@@ -24,12 +27,15 @@ locale tabcontrol it-IT locale/it-IT/
 locale tabcontrol ja-JP locale/ja-JP/
 locale tabcontrol ko-KR locale/ko-KR/
 locale tabcontrol mk-MK locale/mk-MK/
+locale tabcontrol nl locale/nl/
 locale tabcontrol nl-NL locale/nl-NL/
+locale tabcontrol pl locale/pl/
 locale tabcontrol pl-PL locale/pl-PL/
 locale tabcontrol pt-BR locale/pt-BR/
 locale tabcontrol ro-RO locale/ro-RO/
 locale tabcontrol ru-RU locale/ru-RU/
 locale tabcontrol sk-SK locale/sk-SK/
+locale tabcontrol sr locale/sr/
 locale tabcontrol tr-TR locale/tr-TR/
 locale tabcontrol uk-UA locale/uk-UA/
 locale tabcontrol zh-CN locale/zh-CN/

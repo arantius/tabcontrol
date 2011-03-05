@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "Nach dem Schliessen eines Tabs den Fokus setzen auf:">
+<!ENTITY focusTab.first "ersten">
+<!ENTITY focusTab.right "rechten">
+<!ENTITY focusTab.left "linken">
+<!ENTITY focusTab.last "letzten">
+<!ENTITY focusTab.lastSelected "zuletzt aktiven">
+<!ENTITY focusTab.labelEnd "Tab">
+<!ENTITY divertedWindowOpen.label "Javascript Popups:">
+<!ENTITY divertedWindowOpen.all "Keine zusätzlichen Einstellungen">
+<!ENTITY divertedWindowOpen.some "Popups mit geänderter Größe in einem neuen Fenster öffnen">
+<!ENTITY divertedWindowOpen.none "Alle Popups in einem neuen Fenser öffnen">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Optionen">
+<!ENTITY tabcontrol.focusLeft "Nach dem Schliessen eines Tabs den linken Tab fokusieren">
+<!ENTITY tabcontrol.posRight "Neue Tabs rechts vom aktuellen Tab öffnen">
+<!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
+<!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
+<!ENTITY tabcontrol.doCloseWithLastTab "Do close window with last tab">
+<!ENTITY tabcontrol.tabWidth "Tab Breite:">
+<!ENTITY tabcontrol.min "Minimum:">
+<!ENTITY tabcontrol.max "Maximum:">
+<!ENTITY tabcontrol.closeButtons.label "Schliessen Taste:">
+<!ENTITY tabcontrol.closeButtons.active "nur auf dem aktiven Tab">
+<!ENTITY tabcontrol.closeButtons.right "nur auf der Tableiste">
+<!ENTITY tabcontrol.closeButtons.all "auf allen Tabs">
+<!ENTITY tabcontrol.closeButtons.none "keine">

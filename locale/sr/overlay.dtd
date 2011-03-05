@@ -1,0 +1,26 @@
+<!ENTITY focusTab.labelBegin "Када затворим језичак, пребаци на:">
+<!ENTITY focusTab.first "први">
+<!ENTITY focusTab.right "десни">
+<!ENTITY focusTab.left "леви">
+<!ENTITY focusTab.last "последњи">
+<!ENTITY focusTab.lastSelected "последњи одабрани">
+<!ENTITY focusTab.labelEnd "језичак">
+<!ENTITY divertedWindowOpen.label "Искачући прозори JavaScript:">
+<!ENTITY divertedWindowOpen.all "Без додатних подешавања">
+<!ENTITY divertedWindowOpen.some "Дозволи искачућим прозорима промењене величине да се отварају у новом прозору">
+<!ENTITY divertedWindowOpen.none "Дозволи искачућим прозорима да се отварају у новом прозору">
+<!ENTITY tabcontrol.title "Контролисање језичака">
+<!ENTITY tabcontrol.options "Опције">
+<!ENTITY tabcontrol.focusLeft "Када затворим последњи језичак, пребаци на леви">
+<!ENTITY tabcontrol.posRight "Постави нове језичне десно од тренутног">
+<!ENTITY tabcontrol.leftRightGroup "У групи слева надесно">
+<!ENTITY tabcontrol.searchInNewTab "Све претраге отварај у новим језичцима">
+<!ENTITY tabcontrol.doCloseWithLastTab "Не затварај прозор са последњим језичком">
+<!ENTITY tabcontrol.tabWidth "Ширина језичка:">
+<!ENTITY tabcontrol.min "Најмање:">
+<!ENTITY tabcontrol.max "Највише:">
+<!ENTITY tabcontrol.closeButtons.label "Дугмад за затварање:">
+<!ENTITY tabcontrol.closeButtons.active "једно, на тренутном језичку">
+<!ENTITY tabcontrol.closeButtons.right "једно, на десном крају">
+<!ENTITY tabcontrol.closeButtons.all "на сваком језичку по једно">
+<!ENTITY tabcontrol.closeButtons.none "ни једно">
