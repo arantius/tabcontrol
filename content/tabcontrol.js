@@ -86,19 +86,23 @@ addTab:function(
 },
 
 removeTab:function(aTab) {
-	//if we're configured to, get set to focus left tab
+	var focusTab = null;
+
+	//if we're configured to, get ready to focus left tab
 	if (gTabControl.getPref('bool', 'tabcontrol.focusLeftOnClose')
 		&& aTab._tPos>0
 		&& gBrowser.mCurrentTab==aTab
 	) {
-		//set focus to the tab that we want
-		gTabControl.selectTab(
-			gBrowser.mTabContainer.childNodes[aTab._tPos-1]
-		);
+		focusTab = gBrowser.mTabContainer.childNodes[aTab._tPos-1];
 	}
 
 	//call the browser's real remove tab function
 	gBrowser.origRemoveTab(aTab);
+
+	if (focusTab) {
+		//set focus to the tab that we want
+		gTabControl.selectTab(focusTab);
+	}
 },
 
 selectTab:function(aTab) {
