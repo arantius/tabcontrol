@@ -75,9 +75,6 @@ addTab:function(
 				&& afterTab.getAttribute('tabControlRefId')==tabId
 				&& afterTab.nextSibling
 			) {
-				dump('skip tab id '+afterTab.getAttribute('tabControlId')+
-					' because it references '+afterTab.getAttribute('tabControlRefId')+
-					'\n');
 				afterTab=afterTab.nextSibling;
 			}
 		}
@@ -94,7 +91,6 @@ addTab:function(
 assignTabId:function(aTab) {
 	if (!aTab.hasAttribute('tabControlId')) {
 		aTab.setAttribute('tabControlId', ++gTabControl.tabId);
-		dump('create tab with ID: '+gTabControl.tabId+'\n');
 	}
 },
 
