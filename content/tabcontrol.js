@@ -26,6 +26,7 @@ onLoad:function() {
 	//detect tab change
 	gBrowser.tabContainer.addEventListener(
 		"TabSelect", gTabControl.changeTab, false);
+	gBrowser.addTabsProgressListener(gTabControl.tabProgressListener);
 
 	var searchbar=document.getElementById('searchbar');
 	gTabControl.origHandleSearchCommand=searchbar.handleSearchCommand;
@@ -64,10 +65,10 @@ addTab:function(
 		var afterTab=gBrowser.mCurrentTab.nextSibling;
 
 		if (gTabControl.getPref('bool', 'tabcontrol.leftRightGroup')) {
-			gTabControl.assignTabId(gBrowser.mCurrentTab);
-			gTabControl.assignTabId(newTab);
+			gTabControl.setTabId(gBrowser.mCurrentTab);
+			gTabControl.setTabId(newTab);
 
-			var tabId=gBrowser.mCurrentTab.getAttribute('tabControlId');
+			var tabId=gTabControl.getTabId(gBrowser.mCurrentTab);
 			newTab.setAttribute('tabControlRefId', tabId);
 
 			while (
@@ -88,9 +89,20 @@ addTab:function(
 	return newTab;
 },
 
-assignTabId:function(aTab) {
-	if (!aTab.hasAttribute('tabControlId')) {
-		aTab.setAttribute('tabControlId', ++gTabControl.tabId);
+clearTabId:function(aTab, aBrowser) {
+	var browser = aBrowser || gBrowser.getBrowserForTab(aTab);
+	browser.removeAttribute('tabControlId');
+},
+
+getTabId:function(aTab) {
+	var browser = gBrowser.getBrowserForTab(aTab);
+	return browser.getAttribute('tabControlId');
+},
+
+setTabId:function(aTab) {
+	var browser = gBrowser.getBrowserForTab(aTab);
+	if (!browser.hasAttribute('tabControlId')) {
+		browser.setAttribute('tabControlId', ++gTabControl.tabId);
 	}
 },
 
@@ -126,8 +138,14 @@ changeTab:function(aEvent) {
 	// #433 Break left-to-right groupings when selecting tabs.
 	if (gTabControl.getPref('bool', 'browser.tabs.loadInBackground')) {
 		for (var i=0, tab=null; tab=gBrowser.tabs[i]; i++) {
-			tab.removeAttribute('tabControlId');
+			gTabControl.clearTabId(tab);
 		}
+	}
+},
+
+tabProgressListener:{
+	onLocationChange:function(aBrowser, aWebProgress, aRequest, aLocation) {
+		gTabControl.clearTabId(null, aBrowser);
 	}
 },
 
