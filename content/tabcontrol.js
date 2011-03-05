@@ -21,9 +21,9 @@ onLoad:function() {
 	gBrowser.origAddTab=gBrowser.addTab;
 	gBrowser.addTab=gTabControl.addTab;
 
-	var searchbar=document.getElementById('searchbar')
+	var searchbar=document.getElementById('searchbar');
 	gTabControl.origHandleSearchCommand=searchbar.handleSearchCommand;
-	searchbar.handleSearchCommand=gTabControl.handleSearchCommand
+	searchbar.handleSearchCommand=gTabControl.handleSearchCommand;
 },
 
 onUnLoad:function() {
@@ -40,7 +40,7 @@ addTab:function(
 	//call the browser's real add tab function
 	var newTab;
 	if (2==arguments.length
-		&& 'object'==typeof arguments[1] 
+		&& 'object'==typeof arguments[1]
 		&& !(arguments[1] instanceof Ci.nsIURI)
 	) {
 		newTab=gBrowser.origAddTab(aURI, aReferrerURI);
@@ -110,7 +110,7 @@ selectTab:function(aTab) {
 },
 
 handleSearchCommand:function(aEvent) {
-	var searchbar=document.getElementById('searchbar')
+	var searchbar=document.getElementById('searchbar');
 
 	if ('keypress'==aEvent.type
 		&& 13==aEvent.which
@@ -177,7 +177,7 @@ loadOptions:function() {
 				texts[i].getAttribute('preftype'),
 				texts[i].getAttribute('prefstring')
 			);
-		} catch (e) { alert(e) }
+		} catch (e) { alert(e); }
 	}
 
 	return true;
@@ -223,7 +223,7 @@ saveOptions:function() {
 	return true;
 }
 
-}
+};
 
 //add listener for onload handler
 window.addEventListener('load', gTabControl.onLoad, false);
