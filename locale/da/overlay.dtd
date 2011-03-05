@@ -14,6 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "Fokusér på venstre faneblad ved lukning af nuværende faneblad">
 <!ENTITY tabcontrol.posRight "Placer nye faneblade til højre for nuværende faneblad">
 <!ENTITY tabcontrol.leftRightGroup "I en venstre-til-højre-gruppe">
+<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Åbn alle søgninger i et nyt faneblad">
 <!ENTITY tabcontrol.doCloseWithLastTab "Luk vinduet sammen med sidste faneblad">
 <!ENTITY tabcontrol.tabWidth "Fanebladsbredde">

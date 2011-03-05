@@ -14,6 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "當關閉本分頁時移到左分頁">
 <!ENTITY tabcontrol.posRight "放置新分頁到本分頁的右面">
 <!ENTITY tabcontrol.leftRightGroup "在一個從左到右的群組內">
+<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "於新分頁開啟所有搜尋">
 <!ENTITY tabcontrol.doCloseWithLastTab "當有最後一個分頁時仍關閉視窗">
 <!ENTITY tabcontrol.tabWidth "分頁寬度：">

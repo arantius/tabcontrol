@@ -14,6 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "Preniesť do popredia kartu naľavo od práve zatváranej">
 <!ENTITY tabcontrol.posRight "Umiestniť novú kartu napravo od aktuálnej">
 <!ENTITY tabcontrol.leftRightGroup "V skupine zľava-doprava">
+<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Otvárať všetky vyhľadávania na novej karte">
 <!ENTITY tabcontrol.doCloseWithLastTab "Zavrieť okno pri zatvorení poslednej karty">
 <!ENTITY tabcontrol.tabWidth "Šírka karty:">

@@ -14,6 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "התמקדות בלשונית שמאלית בסגירת לשונית נוכחית">
 <!ENTITY tabcontrol.posRight "מיקום לשוניות חדשות מימין ללשונית הנוכחית">
 <!ENTITY tabcontrol.leftRightGroup "בקבוצת שמאל לימין">
+<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "פתיחת כל החיפושים בלשונית חדשה">
 <!ENTITY tabcontrol.doCloseWithLastTab "סגירת החלון עם הלשונית האחרונה">
 <!ENTITY tabcontrol.tabWidth "רוחב לשונית:">

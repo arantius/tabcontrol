@@ -14,6 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "Фокусирај го левото јазиче кога се затвора тековното јазиче">
 <!ENTITY tabcontrol.posRight "Постави ги новите јазичиња десно од тековното јазиче">
 <!ENTITY tabcontrol.leftRightGroup "Во група од лево на десно">
+<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Отвори ги сите пребарувања во ново јазиче">
 <!ENTITY tabcontrol.doCloseWithLastTab "Затвори го прозорецот со последното јазиче">
 <!ENTITY tabcontrol.tabWidth "Ширина на јазичето:">

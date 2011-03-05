@@ -14,6 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "현재 탭을 닫으면 왼쪽탭을 사용">
 <!ENTITY tabcontrol.posRight "현재 탭의 오른쪽에 새 탭을 위치">
 <!ENTITY tabcontrol.leftRightGroup "그룹의 왼쪽에서 오른쪽으로">
+<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "새 탭으로 모든 검색 열기">
 <!ENTITY tabcontrol.doCloseWithLastTab "마지막 탭과 함께 창도 닫음">
 <!ENTITY tabcontrol.tabWidth "탭 넓이:">

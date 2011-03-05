@@ -14,6 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "При закрытии текущей вкладки переходить на левую вкладку">
 <!ENTITY tabcontrol.posRight "Перемещать новые вкладки вправо от текущей вкладки">
 <!ENTITY tabcontrol.leftRightGroup "В одной группе">
+<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Открывать все поисковые страницы в новой вкладке">
 <!ENTITY tabcontrol.doCloseWithLastTab "Закрывать окна при закрытии последней вкладки">
 <!ENTITY tabcontrol.tabWidth "Ширина вкладки">

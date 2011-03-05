@@ -14,6 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "Gdy zamykasz aktywną kartę, uaktywnij kartę po lewej stronie">
 <!ENTITY tabcontrol.posRight "Nowe karty otwieraj po prawej stronie aktywnej karty">
 <!ENTITY tabcontrol.leftRightGroup "W grupie od lewej do prawej">
+<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Otwieraj wyniki wyszukiwania w nowych kartach">
 <!ENTITY tabcontrol.doCloseWithLastTab "Zamykaj okno z ostatnią kartą">
 <!ENTITY tabcontrol.tabWidth "Szerokość etykiet kart:">

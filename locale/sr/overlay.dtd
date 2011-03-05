@@ -14,6 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "Када затворим последњи језичак, пребаци на леви">
 <!ENTITY tabcontrol.posRight "Постави нове језичне десно од тренутног">
 <!ENTITY tabcontrol.leftRightGroup "У групи слева надесно">
+<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Све претраге отварај у новим језичцима">
 <!ENTITY tabcontrol.doCloseWithLastTab "Не затварај прозор са последњим језичком">
 <!ENTITY tabcontrol.tabWidth "Ширина језичка:">

@@ -14,6 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "Focussen op linkertabblad wanneer de huidige tabblad wordt gesloten">
 <!ENTITY tabcontrol.posRight "Nieuwe tabbladen rechts van de huidige tabblad plaatsen">
 <!ENTITY tabcontrol.leftRightGroup "in een links-naar-rechts-groep">
+<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Alle zoekopdrachten in een nieuw tabblad openen">
 <!ENTITY tabcontrol.doCloseWithLastTab "Venster sluiten met laatste tabblad">
 <!ENTITY tabcontrol.tabWidth "Tabbladbreedte:">

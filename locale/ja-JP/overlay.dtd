@@ -14,6 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "表示中のタブが閉じられた時は左のタブを表示">
 <!ENTITY tabcontrol.posRight "表示中のタブの右に新しいタブを開く">
 <!ENTITY tabcontrol.leftRightGroup "In a left-to-right group">
+<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "検索は新しいタブで行う">
 <!ENTITY tabcontrol.doCloseWithLastTab "Do close window with last tab">
 <!ENTITY tabcontrol.tabWidth "タブの横幅:">
