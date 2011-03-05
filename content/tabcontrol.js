@@ -4,6 +4,8 @@ var gTabControl={
 prefObj: Components.classes['@mozilla.org/preferences-service;1']
 		.getService(Components.interfaces.nsIPrefBranch),
 
+tabId: 0,
+
 /****************************** EVENT LISTENERS ******************************/
 
 onLoad:function() {
@@ -58,20 +60,20 @@ addTab:function(
 		var afterTab=gBrowser.mCurrentTab.nextSibling;
 
 		if (gTabControl.getPref('bool', 'tabcontrol.leftRightGroup')) {
-			if (!gBrowser.mCurrentTab.hasAttribute('tabControlId')) {
-				gBrowser.mCurrentTab.setAttribute(
-					'tabControlId',
-					String(Math.random()).substr(2)
-				);
-			}
+			gTabControl.assignTabId(gBrowser.mCurrentTab);
+			gTabControl.assignTabId(newTab);
 
 			var tabId=gBrowser.mCurrentTab.getAttribute('tabControlId');
 			newTab.setAttribute('tabControlRefId', tabId);
 
 			while (
-				afterTab.getAttribute('tabControlRefId')==tabId
+				afterTab != newTab
+				&& afterTab.getAttribute('tabControlRefId')==tabId
 				&& afterTab.nextSibling
 			) {
+				dump('skip tab id '+afterTab.getAttribute('tabControlId')+
+					' because it references '+afterTab.getAttribute('tabControlRefId')+
+					'\n');
 				afterTab=afterTab.nextSibling;
 			}
 		}
@@ -83,6 +85,13 @@ addTab:function(
 	}
 
 	return newTab;
+},
+
+assignTabId:function(aTab) {
+	if (!aTab.hasAttribute('tabControlId')) {
+		aTab.setAttribute('tabControlId', ++gTabControl.tabId);
+		dump('create tab with ID: '+gTabControl.tabId+'\n');
+	}
 },
 
 removeTab:function(aTab) {

@@ -4,5 +4,6 @@ pref("tabcontrol.posRightOnAdd", true);
 pref("tabcontrol.leftRightGroup", false);
 pref("browser.showQuitWarning", true);
 pref("browser.tabs.closeWindowWithLastTab", false);
+pref("browser.tabs.insertRelatedAfterCurrent", false);
 pref("browser.tabs.tabMinWidth", 30);
 pref("browser.tabs.tabMaxWidth", 350);
