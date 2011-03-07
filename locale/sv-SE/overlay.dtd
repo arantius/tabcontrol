@@ -1,0 +1,27 @@
+<!ENTITY focusTab.labelBegin "När en flik stängs, fokusera:">
+<!ENTITY focusTab.first "den första">
+<!ENTITY focusTab.right "den högra">
+<!ENTITY focusTab.left "den vänstra">
+<!ENTITY focusTab.last "den sista">
+<!ENTITY focusTab.lastSelected "den senast markerade">
+<!ENTITY focusTab.labelEnd "fliken">
+<!ENTITY divertedWindowOpen.label "JavaScript-popup-fönster:">
+<!ENTITY divertedWindowOpen.all "Inga ytterligare inställningar">
+<!ENTITY divertedWindowOpen.some "Tillåt storleksändrade popup-fönster att öppna i nytt fönster">
+<!ENTITY divertedWindowOpen.none "Tillåt alla popup-fönster att öppna i nytt fönster">
+<!ENTITY tabcontrol.title "Tab Control">
+<!ENTITY tabcontrol.options "Inställningar">
+<!ENTITY tabcontrol.focusLeft "Fokusera fliken till vänster när aktuell flik stängs">
+<!ENTITY tabcontrol.posRight "Positionera nya flikar till höger om aktuell flik">
+<!ENTITY tabcontrol.leftRightGroup "I en från-vänster-till-höger-grupp">
+<!ENTITY tabcontrol.showQuitWarning "Visa varningsdialogen &quot;Spara och avsluta&quot;">
+<!ENTITY tabcontrol.searchInNewTab "Öppna alla sökningar i en ny flik">
+<!ENTITY tabcontrol.doCloseWithLastTab "Stäng fönstret när sista fliken stängs">
+<!ENTITY tabcontrol.tabWidth "Flikbredd:">
+<!ENTITY tabcontrol.min "Min:">
+<!ENTITY tabcontrol.max "Max:">
+<!ENTITY tabcontrol.closeButtons.label "Stängknappar:">
+<!ENTITY tabcontrol.closeButtons.active "En, på aktiv flik">
+<!ENTITY tabcontrol.closeButtons.right "En, ute till höger">
+<!ENTITY tabcontrol.closeButtons.all "Flera, på alla flikar">
+<!ENTITY tabcontrol.closeButtons.none "Ingen">

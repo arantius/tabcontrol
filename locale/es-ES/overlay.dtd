@@ -14,7 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "Enfocar pestaña a la izquierda tras cerrar la actual">
 <!ENTITY tabcontrol.posRight "Colocar las nuevas pestañas a la derecha de la actual">
 <!ENTITY tabcontrol.leftRightGroup "En un grupo de izquierda a derecha">
-<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
+<!ENTITY tabcontrol.showQuitWarning "Mostrar el diálogo de &quot;Guardar y salir&quot;">
 <!ENTITY tabcontrol.searchInNewTab "Abrir todas las búsquedas en nueva pestaña">
 <!ENTITY tabcontrol.doCloseWithLastTab "Cerrar la ventana al cerrar la última pestaña">
 <!ENTITY tabcontrol.tabWidth "Ancho de pestaña:">

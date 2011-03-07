@@ -14,7 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "Εστίαση στην αριστερή καρτέλα όταν κλείσει η τρέχουσα">
 <!ENTITY tabcontrol.posRight "Τοποθέτηση νέων καρτελών δεξιά της τρέχουσας">
 <!ENTITY tabcontrol.leftRightGroup "Ομαδοποιημένες αριστερά προς δεξιά">
-<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
+<!ENTITY tabcontrol.showQuitWarning "Προβολή προειδοποίησης για «Αποθήκευση και έξοδο»">
 <!ENTITY tabcontrol.searchInNewTab "Άνοιγμα όλων των αναζητήσεων σε νέες καρτέλες">
 <!ENTITY tabcontrol.doCloseWithLastTab "Να κλείνει το παράθυρο όταν κλείνει και η τελευταία καρτέλα">
 <!ENTITY tabcontrol.tabWidth "Μήκος καρτέλας:">

@@ -14,7 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "À la fermeture de l'onglet courant, activer l'onglet de gauche">
 <!ENTITY tabcontrol.posRight "Positionner les nouveaux onglets à la droite de l'onglet courant">
 <!ENTITY tabcontrol.leftRightGroup "Dans un groupe de gauche à droite">
-<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
+<!ENTITY tabcontrol.showQuitWarning "Afficher 'Sauvegarder et quitter'">
 <!ENTITY tabcontrol.searchInNewTab "Ouvrir toutes les recherches dans un nouvel onglet">
 <!ENTITY tabcontrol.doCloseWithLastTab "Fermer la fenêtre avec le dernier onglet">
 <!ENTITY tabcontrol.tabWidth "Largeur des onglets :">
