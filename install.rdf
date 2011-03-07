@@ -5,7 +5,6 @@
 		<em:name>Tab Control</em:name>
 		<em:version>0.5.4</em:version>
 		<em:type>2</em:type>
-		<em:unpack>true</em:unpack>
 
 		<em:creator>Anthony Lieuallen</em:creator>
 		<em:homepageURL>http://trac.arantius.com/wiki/Extensions/TabControl</em:homepageURL>
