@@ -114,23 +114,15 @@ removeTab:function(aTab) {
 		&& aTab._tPos>0
 		&& gBrowser.mCurrentTab==aTab
 	) {
-		focusTab = gBrowser.mTabContainer.childNodes[aTab._tPos-1];
+		focusTab = aTab._tPos-1;
 	}
 
 	//call the browser's real remove tab function
 	gBrowser.origRemoveTab(aTab);
 
-	if (focusTab) {
+	if (null !== focusTab) {
 		//set focus to the tab that we want
-		gTabControl.selectTab(focusTab);
-	}
-},
-
-selectTab:function(aTab) {
-	with (gBrowser) {
-		selectedTab=aTab;
-		mTabBox.selectedPanel=getBrowserForTab(mCurrentTab).parentNode;
-		updateCurrentBrowser();
+		gBrowser.selectTabAtIndex(focusTab);
 	}
 },
 
