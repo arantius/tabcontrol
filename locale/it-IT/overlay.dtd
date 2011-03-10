@@ -14,7 +14,7 @@
 <!ENTITY tabcontrol.focusLeft "Porta in primo piano la scheda a sinistra quando si chiude la scheda attuale">
 <!ENTITY tabcontrol.posRight "Posiziona le nuove schede a destra della scheda attuale">
 <!ENTITY tabcontrol.leftRightGroup "Inverti l'ordine di apertura delle schede">
-<!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
+<!ENTITY tabcontrol.showQuitWarning "Chiedi se salvare le schede aperte quando si chiude il browser">
 <!ENTITY tabcontrol.searchInNewTab "Apri i risultati della barra di ricerca in una nuova scheda">
 <!ENTITY tabcontrol.doCloseWithLastTab "Chiudi la finestra del browser quando si chiude l'ultima scheda">
 <!ENTITY tabcontrol.tabWidth "Larghezza cartellino delle schede:">
