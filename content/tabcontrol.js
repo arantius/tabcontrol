@@ -30,8 +30,10 @@ onLoad:function() {
 
 onUnload:function() {
 	window.removeEventListener('unload', gTabControl.onUnload, false);
+	var container = gBrowser.tabContainer;
 	container.removeEventListener("TabClose", gTabControl.onTabClose, false);
 	container.removeEventListener("TabOpen", gTabControl.onTabOpen, false);
+	container.removeEventListener("TabSelect", gTabControl.changeTab, false);
 },
 
 onTabClose:function(aEvent) {
