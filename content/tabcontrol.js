@@ -19,10 +19,8 @@ onLoad:function() {
 	var container = gBrowser.tabContainer;
 	container.addEventListener("TabClose", gTabControl.onTabClose, false);
 	container.addEventListener("TabOpen", gTabControl.onTabOpen, false);
+	container.addEventListener("TabSelect", gTabControl.changeTab, false);
 
-	//detect tab change
-	gBrowser.tabContainer.addEventListener(
-		"TabSelect", gTabControl.changeTab, false);
 	gBrowser.addTabsProgressListener(gTabControl.tabProgressListener);
 
 	var searchbar=document.getElementById('searchbar');
