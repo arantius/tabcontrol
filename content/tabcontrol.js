@@ -18,10 +18,7 @@ onLoad:function() {
 
 	var container = gBrowser.tabContainer;
 	container.addEventListener("TabClose", gTabControl.onTabClose, false);
-
-	//mangle addTab function
-	gBrowser.origAddTab=gBrowser.addTab;
-	gBrowser.addTab=gTabControl.addTab;
+	container.addEventListener("TabOpen", gTabControl.onTabOpen, false);
 
 	//detect tab change
 	gBrowser.tabContainer.addEventListener(
@@ -36,6 +33,7 @@ onLoad:function() {
 onUnload:function() {
 	window.removeEventListener('unload', gTabControl.onUnload, false);
 	container.removeEventListener("TabClose", gTabControl.onTabClose, false);
+	container.removeEventListener("TabOpen", gTabControl.onTabOpen, false);
 },
 
 onTabClose:function(aEvent) {
@@ -50,26 +48,10 @@ onTabClose:function(aEvent) {
 	}
 },
 
-/****************************** TAB MANIPULATION *****************************/
 
-addTab:function(
-	aURI, aReferrerURI, aCharset, aPostData, aOwner, aAllowThirdPartyFixup
-) {
-	//call the browser's real add tab function
-	var newTab;
-	if (2==arguments.length
-		&& 'object'==typeof arguments[1]
-		&& !(arguments[1] instanceof Ci.nsIURI)
-	) {
-		newTab=gBrowser.origAddTab(aURI, aReferrerURI);
-	} else {
-		newTab=gBrowser.origAddTab(
-			aURI, aReferrerURI, aCharset, aPostData, aOwner, aAllowThirdPartyFixup
-		);
-	}
-
-	//#294: stop processing if there is no URI.
-	if ('undefined'==typeof aURI) return newTab;
+onTabOpen:function(aEvent) {
+	dump('>>> gTabControl.onTabOpen() ...\n');
+	var tab = aEvent.target;
 
 	//shift the new tab into position
 	if (gTabControl.getPref('bool', 'tabcontrol.posRightOnAdd')) {
@@ -77,13 +59,13 @@ addTab:function(
 
 		if (gTabControl.getPref('bool', 'tabcontrol.leftRightGroup')) {
 			gTabControl.setTabId(gBrowser.mCurrentTab);
-			gTabControl.setTabId(newTab);
+			gTabControl.setTabId(tab);
 
 			var tabId=gTabControl.getTabId(gBrowser.mCurrentTab);
-			newTab.setAttribute('tabControlRefId', tabId);
+			tab.setAttribute('tabControlRefId', tabId);
 
 			while (
-				afterTab != newTab
+				afterTab != tab
 				&& afterTab.getAttribute('tabControlRefId')==tabId
 				&& afterTab.nextSibling
 			) {
@@ -91,14 +73,15 @@ addTab:function(
 			}
 		}
 
-		gBrowser.moveTabTo(newTab, afterTab._tPos);
+		gBrowser.moveTabTo(tab, afterTab._tPos);
 
-		//compatibility fix with CoLoUnREaDTabs (#152)
-		newTab.removeAttribute('selected');
+		// Compatibility fix with CoLoUnREaDTabs. (#152)
+		tab.removeAttribute('selected');
 	}
 
-	return newTab;
 },
+
+/****************************** TAB MANIPULATION *****************************/
 
 clearTabId:function(aTab, aBrowser) {
 	var browser = aBrowser || gBrowser.getBrowserForTab(aTab);
