@@ -9,15 +9,15 @@ tabId: 0,
 /****************************** EVENT LISTENERS ******************************/
 
 onLoad:function() {
-	//attach other listeners
-	window.addEventListener('unload', gTabControl.onUnLoad, false);
+	window.removeEventListener('load', gTabControl.onLoad, false);
 
-	//in options window, no gBrowser, no need to do the rest
+	// In options window, no gBrowser, no need to do the rest.
 	if ('undefined'==typeof gBrowser) return;
 
-	//mangle removeTab function
-	gBrowser.origRemoveTab=gBrowser.removeTab;
-	gBrowser.removeTab=gTabControl.removeTab;
+	window.addEventListener('unload', gTabControl.onUnload, false);
+
+	var container = gBrowser.tabContainer;
+	container.addEventListener("TabClose", gTabControl.onTabClose, false);
 
 	//mangle addTab function
 	gBrowser.origAddTab=gBrowser.addTab;
@@ -33,10 +33,21 @@ onLoad:function() {
 	searchbar.handleSearchCommand=gTabControl.handleSearchCommand;
 },
 
-onUnLoad:function() {
-	//remove our listeners
-	window.removeEventListener('load', gTabControl.onLoad, false);
-	window.removeEventListener('unload', gTabControl.onUnLoad, false);
+onUnload:function() {
+	window.removeEventListener('unload', gTabControl.onUnload, false);
+	container.removeEventListener("TabClose", gTabControl.onTabClose, false);
+},
+
+onTabClose:function(aEvent) {
+	var tab = aEvent.target;
+	// If we're configured to, focus left tab.
+	if (gTabControl.getPref('bool', 'tabcontrol.focusLeftOnClose')
+		&& gBrowser.mCurrentTab == tab
+		&& tab._tPos > 0
+		// TODO: Not if left tab is a pinned app tab.
+	) {
+		gBrowser.selectTabAtIndex(tab._tPos - 1);
+	}
 },
 
 /****************************** TAB MANIPULATION *****************************/
@@ -103,26 +114,6 @@ setTabId:function(aTab) {
 	var browser = gBrowser.getBrowserForTab(aTab);
 	if (!browser.hasAttribute('tabControlId')) {
 		browser.setAttribute('tabControlId', ++gTabControl.tabId);
-	}
-},
-
-removeTab:function(aTab) {
-	var focusTab = null;
-
-	//if we're configured to, get ready to focus left tab
-	if (gTabControl.getPref('bool', 'tabcontrol.focusLeftOnClose')
-		&& aTab._tPos>0
-		&& gBrowser.mCurrentTab==aTab
-	) {
-		focusTab = aTab._tPos-1;
-	}
-
-	//call the browser's real remove tab function
-	gBrowser.origRemoveTab(aTab);
-
-	if (null !== focusTab) {
-		//set focus to the tab that we want
-		gBrowser.selectTabAtIndex(focusTab);
 	}
 },
 
