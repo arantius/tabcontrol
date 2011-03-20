@@ -3,7 +3,7 @@ var gTabControl={
 
 prefObj: Components.classes['@mozilla.org/preferences-service;1']
 		.getService(Components.interfaces.nsIPrefBranch),
-
+sessionRestoring: false,
 tabId: 0,
 
 /****************************** EVENT LISTENERS ******************************/
@@ -23,6 +23,9 @@ onLoad:function() {
 
 	gBrowser.addTabsProgressListener(gTabControl.tabProgressListener);
 
+	window.addEventListener("SSWindowStateBusy", gTabControl.onSessionBusy, false);
+	window.addEventListener("SSWindowStateReady", gTabControl.onSessionReady, false);
+
 	var searchbar=document.getElementById('searchbar');
 	gTabControl.origHandleSearchCommand=searchbar.handleSearchCommand;
 	searchbar.handleSearchCommand=gTabControl.handleSearchCommand;
@@ -34,6 +37,16 @@ onUnload:function() {
 	container.removeEventListener("TabClose", gTabControl.onTabClose, false);
 	container.removeEventListener("TabOpen", gTabControl.onTabOpen, false);
 	container.removeEventListener("TabSelect", gTabControl.changeTab, false);
+	window.removeEventListener("SSWindowStateBusy", gTabControl.onSessionBusy, false);
+	window.removeEventListener("SSWindowStateReady", gTabControl.onSessionReady, false);
+},
+
+onSessionBusy:function(aEvent) {
+	gTabControl.sessionRestoring = true;
+},
+
+onSessionReady:function(aEvent) {
+	gTabControl.sessionRestoring = false;
 },
 
 onTabClose:function(aEvent) {
@@ -50,7 +63,7 @@ onTabClose:function(aEvent) {
 
 
 onTabOpen:function(aEvent) {
-	dump('>>> gTabControl.onTabOpen() ...\n');
+	if (gTabControl.sessionRestoring) return;
 	var tab = aEvent.target;
 
 	//shift the new tab into position
