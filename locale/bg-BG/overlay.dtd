@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
 <!ENTITY tabcontrol.doCloseWithLastTab "Do close window with last tab">
-<!ENTITY tabcontrol.tabWidth "Ширина на подпрозореца:">
-<!ENTITY tabcontrol.min "Мин.:">
-<!ENTITY tabcontrol.max "Макс.:">
 <!ENTITY tabcontrol.closeButtons.label "Бутони за затваряне:">
 <!ENTITY tabcontrol.closeButtons.active "Един, на активния подпрозорец">
 <!ENTITY tabcontrol.closeButtons.right "Един, на десния подпрозорец">

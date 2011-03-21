@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Otvárať všetky vyhľadávania na novej karte">
 <!ENTITY tabcontrol.doCloseWithLastTab "Zavrieť okno pri zatvorení poslednej karty">
-<!ENTITY tabcontrol.tabWidth "Šírka karty:">
-<!ENTITY tabcontrol.min "Min:">
-<!ENTITY tabcontrol.max "Max:">
 <!ENTITY tabcontrol.closeButtons.label "Tlačidlá Zavrieť:">
 <!ENTITY tabcontrol.closeButtons.active "Jedno, na aktívnej karte">
 <!ENTITY tabcontrol.closeButtons.right "Jedno, napravo">

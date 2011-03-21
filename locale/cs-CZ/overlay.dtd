@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
 <!ENTITY tabcontrol.doCloseWithLastTab "Do close window with last tab">
-<!ENTITY tabcontrol.tabWidth "Šířka panelu">
-<!ENTITY tabcontrol.min "Min:">
-<!ENTITY tabcontrol.max "Max:">
 <!ENTITY tabcontrol.closeButtons.label "Tlačítka pro zavření:">
 <!ENTITY tabcontrol.closeButtons.active "Jedno, na aktivním panelu">
 <!ENTITY tabcontrol.closeButtons.right "Jedno, vpravo">

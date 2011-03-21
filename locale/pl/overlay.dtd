@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Wyświetlaj ostrzeżenie o zamknięciu kart">
 <!ENTITY tabcontrol.searchInNewTab "Otwieraj wyniki wyszukiwania w nowych kartach">
 <!ENTITY tabcontrol.doCloseWithLastTab "Zamykaj okno z ostatnią kartą">
-<!ENTITY tabcontrol.tabWidth "Szerokość etykiet kart:">
-<!ENTITY tabcontrol.min "Minimalna">
-<!ENTITY tabcontrol.max "Maksymalna">
 <!ENTITY tabcontrol.closeButtons.label "Przycisk zamykania wyświetlaj">
 <!ENTITY tabcontrol.closeButtons.active "tylko na aktywnej karcie">
 <!ENTITY tabcontrol.closeButtons.right "na pasku kart po prawej stronie">

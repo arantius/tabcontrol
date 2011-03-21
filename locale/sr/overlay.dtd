@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Прикажи прозор „Сачувај и изађи”">
 <!ENTITY tabcontrol.searchInNewTab "Све претраге отварај у новим језичцима">
 <!ENTITY tabcontrol.doCloseWithLastTab "Не затварај прозор са последњим језичком">
-<!ENTITY tabcontrol.tabWidth "Ширина језичка:">
-<!ENTITY tabcontrol.min "Најмање:">
-<!ENTITY tabcontrol.max "Највише:">
 <!ENTITY tabcontrol.closeButtons.label "Дугмад за затварање:">
 <!ENTITY tabcontrol.closeButtons.active "једно, на тренутном језичку">
 <!ENTITY tabcontrol.closeButtons.right "једно, на десном крају">

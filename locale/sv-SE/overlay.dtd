@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Visa varningsdialogen &quot;Spara och avsluta&quot;">
 <!ENTITY tabcontrol.searchInNewTab "Öppna alla sökningar i en ny flik">
 <!ENTITY tabcontrol.doCloseWithLastTab "Stäng fönstret när sista fliken stängs">
-<!ENTITY tabcontrol.tabWidth "Flikbredd:">
-<!ENTITY tabcontrol.min "Min:">
-<!ENTITY tabcontrol.max "Max:">
 <!ENTITY tabcontrol.closeButtons.label "Stängknappar:">
 <!ENTITY tabcontrol.closeButtons.active "En, på aktiv flik">
 <!ENTITY tabcontrol.closeButtons.right "En, ute till höger">

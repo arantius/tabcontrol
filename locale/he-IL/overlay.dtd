@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "הצגת הודעת האזהרה 'שמירה ויציאה'">
 <!ENTITY tabcontrol.searchInNewTab "פתיחת כל החיפושים בלשונית חדשה">
 <!ENTITY tabcontrol.doCloseWithLastTab "סגירת החלון עם הלשונית האחרונה">
-<!ENTITY tabcontrol.tabWidth "רוחב לשונית:">
-<!ENTITY tabcontrol.min "מינימום:">
-<!ENTITY tabcontrol.max "מקסימום:">
 <!ENTITY tabcontrol.closeButtons.label "כפתורי סגירה:">
 <!ENTITY tabcontrol.closeButtons.active "אחד, בלשונית הפעילה">
 <!ENTITY tabcontrol.closeButtons.right "אחד, בשמאל">

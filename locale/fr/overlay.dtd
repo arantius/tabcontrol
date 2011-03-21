@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Afficher 'Sauvegarder et quitter'">
 <!ENTITY tabcontrol.searchInNewTab "Ouvrir toutes les recherches dans un nouvel onglet">
 <!ENTITY tabcontrol.doCloseWithLastTab "Fermer la fenêtre avec le dernier onglet">
-<!ENTITY tabcontrol.tabWidth "Largeur des onglets :">
-<!ENTITY tabcontrol.min "Min :">
-<!ENTITY tabcontrol.max "Max :">
 <!ENTITY tabcontrol.closeButtons.label "Boutons de fermeture :">
 <!ENTITY tabcontrol.closeButtons.active "Un, sur l'onglet actif">
 <!ENTITY tabcontrol.closeButtons.right "Un, sur la droite de l'onglet">

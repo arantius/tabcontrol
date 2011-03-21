@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
 <!ENTITY tabcontrol.doCloseWithLastTab "Do close window with last tab">
-<!ENTITY tabcontrol.tabWidth "Tab width:">
-<!ENTITY tabcontrol.min "Min:">
-<!ENTITY tabcontrol.max "Max:">
 <!ENTITY tabcontrol.closeButtons.label "Close buttons:">
 <!ENTITY tabcontrol.closeButtons.active "One, on active tab">
 <!ENTITY tabcontrol.closeButtons.right "One, on the right">

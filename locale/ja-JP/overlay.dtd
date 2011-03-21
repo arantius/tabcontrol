@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "検索は新しいタブで行う">
 <!ENTITY tabcontrol.doCloseWithLastTab "Do close window with last tab">
-<!ENTITY tabcontrol.tabWidth "タブの横幅:">
-<!ENTITY tabcontrol.min "最小:">
-<!ENTITY tabcontrol.max "最大:">
 <!ENTITY tabcontrol.closeButtons.label "閉じるボタン:">
 <!ENTITY tabcontrol.closeButtons.active "表示中のタブ">
 <!ENTITY tabcontrol.closeButtons.right "タブバーの右端">

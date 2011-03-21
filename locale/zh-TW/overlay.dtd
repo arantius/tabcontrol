@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "於新分頁開啟所有搜尋">
 <!ENTITY tabcontrol.doCloseWithLastTab "當有最後一個分頁時仍關閉視窗">
-<!ENTITY tabcontrol.tabWidth "分頁寬度：">
-<!ENTITY tabcontrol.min "最少：">
-<!ENTITY tabcontrol.max "最大：">
 <!ENTITY tabcontrol.closeButtons.label "關閉按鈕：">
 <!ENTITY tabcontrol.closeButtons.active "一個，在使用中分頁">
 <!ENTITY tabcontrol.closeButtons.right "一個，在分頁列最右面">

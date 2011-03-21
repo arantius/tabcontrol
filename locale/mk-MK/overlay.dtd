@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Отвори ги сите пребарувања во ново јазиче">
 <!ENTITY tabcontrol.doCloseWithLastTab "Затвори го прозорецот со последното јазиче">
-<!ENTITY tabcontrol.tabWidth "Ширина на јазичето:">
-<!ENTITY tabcontrol.min "Мин:">
-<!ENTITY tabcontrol.max "Макс:">
 <!ENTITY tabcontrol.closeButtons.label "Затвори ги копчињата:">
 <!ENTITY tabcontrol.closeButtons.active "Едно, на активното јазиче">
 <!ENTITY tabcontrol.closeButtons.right "Едно, десно">

@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Προβολή προειδοποίησης για «Αποθήκευση και έξοδο»">
 <!ENTITY tabcontrol.searchInNewTab "Άνοιγμα όλων των αναζητήσεων σε νέες καρτέλες">
 <!ENTITY tabcontrol.doCloseWithLastTab "Να κλείνει το παράθυρο όταν κλείνει και η τελευταία καρτέλα">
-<!ENTITY tabcontrol.tabWidth "Μήκος καρτέλας:">
-<!ENTITY tabcontrol.min "Ελάχιστο:">
-<!ENTITY tabcontrol.max "Μέγιστο:">
 <!ENTITY tabcontrol.closeButtons.label "Κουμπιά κλεισίματος:">
 <!ENTITY tabcontrol.closeButtons.active "Ένα, στην τρέχουσα καρτέλα">
 <!ENTITY tabcontrol.closeButtons.right "Ένα, στο δεξί μέρος">

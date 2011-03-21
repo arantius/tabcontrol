@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Открывать все поисковые страницы в новой вкладке">
 <!ENTITY tabcontrol.doCloseWithLastTab "Закрывать окна при закрытии последней вкладки">
-<!ENTITY tabcontrol.tabWidth "Ширина вкладки">
-<!ENTITY tabcontrol.min "Минимальная">
-<!ENTITY tabcontrol.max "Максимальная">
 <!ENTITY tabcontrol.closeButtons.label "Кнопки закрытия вкладок:">
 <!ENTITY tabcontrol.closeButtons.active "Одна, на активной вкладке">
 <!ENTITY tabcontrol.closeButtons.right "Одна, справа">

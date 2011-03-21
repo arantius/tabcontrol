@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
 <!ENTITY tabcontrol.doCloseWithLastTab "Do close window with last tab">
-<!ENTITY tabcontrol.tabWidth "Largura do separador:">
-<!ENTITY tabcontrol.min "Mín.:">
-<!ENTITY tabcontrol.max "Máx.:">
 <!ENTITY tabcontrol.closeButtons.label "Botóns de pechar:">
 <!ENTITY tabcontrol.closeButtons.active "Un, no separador activo">
 <!ENTITY tabcontrol.closeButtons.right "Un, no separador da dereita">

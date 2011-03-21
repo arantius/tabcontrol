@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Open all searches in a new tab">
 <!ENTITY tabcontrol.doCloseWithLastTab "Do close window with last tab">
-<!ENTITY tabcontrol.tabWidth "Amplada de la pestanya">
-<!ENTITY tabcontrol.min "Mínim:">
-<!ENTITY tabcontrol.max "Màxim:">
 <!ENTITY tabcontrol.closeButtons.label "Botons de tancar pestanya:">
 <!ENTITY tabcontrol.closeButtons.active "Un, a la pestanya activa">
 <!ENTITY tabcontrol.closeButtons.right "Un, a la dreta">

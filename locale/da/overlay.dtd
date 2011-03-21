@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Show 'Save and Quit' warning dialog">
 <!ENTITY tabcontrol.searchInNewTab "Åbn alle søgninger i et nyt faneblad">
 <!ENTITY tabcontrol.doCloseWithLastTab "Luk vinduet sammen med sidste faneblad">
-<!ENTITY tabcontrol.tabWidth "Fanebladsbredde">
-<!ENTITY tabcontrol.min "Min:">
-<!ENTITY tabcontrol.max "Maks:">
 <!ENTITY tabcontrol.closeButtons.label "Luk knapper:">
 <!ENTITY tabcontrol.closeButtons.active "En, på aktivt faneblad">
 <!ENTITY tabcontrol.closeButtons.right "En, til højre">

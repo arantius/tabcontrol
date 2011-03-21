@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Chiedi se salvare le schede aperte quando si chiude il browser">
 <!ENTITY tabcontrol.searchInNewTab "Apri i risultati della barra di ricerca in una nuova scheda">
 <!ENTITY tabcontrol.doCloseWithLastTab "Chiudi la finestra del browser quando si chiude l'ultima scheda">
-<!ENTITY tabcontrol.tabWidth "Larghezza cartellino delle schede:">
-<!ENTITY tabcontrol.min "da">
-<!ENTITY tabcontrol.max "a">
 <!ENTITY tabcontrol.closeButtons.label "Visualizza il pulsante di chiusura schede:">
 <!ENTITY tabcontrol.closeButtons.active "nella scheda attuale">
 <!ENTITY tabcontrol.closeButtons.right "nella barra delle schede">

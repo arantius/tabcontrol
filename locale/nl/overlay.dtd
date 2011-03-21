@@ -17,9 +17,6 @@
 <!ENTITY tabcontrol.showQuitWarning "Waarschuwingsvenster ‘Opslaan en afsluiten’ weergeven">
 <!ENTITY tabcontrol.searchInNewTab "Alle zoekopdrachten in een nieuw tabblad openen">
 <!ENTITY tabcontrol.doCloseWithLastTab "Venster sluiten met laatste tabblad">
-<!ENTITY tabcontrol.tabWidth "Tabbladbreedte:">
-<!ENTITY tabcontrol.min "Min:">
-<!ENTITY tabcontrol.max "Max:">
 <!ENTITY tabcontrol.closeButtons.label "Sluitknoppen:">
 <!ENTITY tabcontrol.closeButtons.active "Eén, op actief tabblad">
 <!ENTITY tabcontrol.closeButtons.right "Eén, aan rechterzijde">
