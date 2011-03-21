@@ -188,17 +188,6 @@ loadOptions:function() {
 		} catch (e) {  }
 	}
 
-	//textboxes
-	var texts=window.document.getElementsByTagName('textbox');
-	for (var i=0; texts[i]; i++) {
-		try {
-			texts[i].value=gTabControl.getPref(
-				texts[i].getAttribute('preftype'),
-				texts[i].getAttribute('prefstring')
-			);
-		} catch (e) { alert(e); }
-	}
-
 	return true;
 },
 
@@ -223,18 +212,6 @@ saveOptions:function() {
 				'int',
 				drops[i].getAttribute('prefstring'),
 				drops[i].selectedItem.value
-			);
-		} catch (e) {  }
-	}
-
-	//textboxes
-	var texts=window.document.getElementsByTagName('textbox');
-	for (var i=0; texts[i]; i++) {
-		try {
-			gTabControl.setPref(
-				texts[i].getAttribute('preftype'),
-				texts[i].getAttribute('prefstring'),
-				texts[i].value
 			);
 		} catch (e) {  }
 	}
