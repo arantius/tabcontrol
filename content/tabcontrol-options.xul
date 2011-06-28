@@ -3,75 +3,75 @@
 <?xml-stylesheet href="chrome://browser/skin/" type="text/css"?>
 
 <dialog id="tabcontrol-options2"
-	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
-	title="&tabcontrol.title; - &tabcontrol.options;"
-	buttons="accept, cancel"
-	onload="gTabControl.loadOptions();"
-	ondialogaccept="gTabControl.saveOptions();"
-	persist="screenX screenY"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  title="&tabcontrol.title; - &tabcontrol.options;"
+  buttons="accept, cancel"
+  onload="gTabControl.loadOptions();"
+  ondialogaccept="gTabControl.saveOptions();"
+  persist="screenX screenY"
 >
-	<script type="application/x-javascript" src="chrome://tabcontrol/content/tabcontrol.js"></script>
+  <script type="application/x-javascript" src="chrome://tabcontrol/content/tabcontrol.js"></script>
 
-	<groupbox align="center" orient="horizontal">
-	<vbox>
-		<text value="&tabcontrol.title;" style="font-weight: bold; font-size: x-large;" />
-		<separator class="thin" />
+  <groupbox align="center" orient="horizontal">
+  <vbox>
+    <text value="&tabcontrol.title;" style="font-weight: bold; font-size: x-large;" />
+    <separator class="thin" />
 
-		<checkbox id='focusLeftOnClose' prefstring='tabcontrol.focusLeftOnClose'
-			label='&tabcontrol.focusLeft;'
-		/>
-		<separator class="thin" />
+    <checkbox id='focusLeftOnClose' prefstring='tabcontrol.focusLeftOnClose'
+      label='&tabcontrol.focusLeft;'
+    />
+    <separator class="thin" />
 
-		<checkbox id='posRightOnAdd' prefstring='tabcontrol.posRightOnAdd'
-			label='&tabcontrol.posRight;'
-		/>
-		<hbox>
-			<box width='15'/>
-			<checkbox id='leftRightGroup' prefstring='tabcontrol.leftRightGroup'
-				label='&tabcontrol.leftRightGroup;'
-			/>
-		</hbox>
-		<separator class="thin" />
+    <checkbox id='posRightOnAdd' prefstring='tabcontrol.posRightOnAdd'
+      label='&tabcontrol.posRight;'
+    />
+    <hbox>
+      <box width='15'/>
+      <checkbox id='leftRightGroup' prefstring='tabcontrol.leftRightGroup'
+        label='&tabcontrol.leftRightGroup;'
+      />
+    </hbox>
+    <separator class="thin" />
 
-		<checkbox id='searchInNewTab' prefstring='browser.search.openintab'
-			label='&tabcontrol.searchInNewTab;'
-		/>
-		<separator class="thin" />
+    <checkbox id='searchInNewTab' prefstring='browser.search.openintab'
+      label='&tabcontrol.searchInNewTab;'
+    />
+    <separator class="thin" />
 
-		<checkbox id='closeWithLastTab' prefstring='browser.tabs.closeWindowWithLastTab'
-			label='&tabcontrol.doCloseWithLastTab;'
-		/>
-		<separator class="thin" />
+    <checkbox id='closeWithLastTab' prefstring='browser.tabs.closeWindowWithLastTab'
+      label='&tabcontrol.doCloseWithLastTab;'
+    />
+    <separator class="thin" />
 
-		<checkbox id='showQuitWarning' prefstring='browser.showQuitWarning'
-			label='&tabcontrol.showQuitWarning;'
-		/>
-		<separator class="thin" />
+    <checkbox id='showQuitWarning' prefstring='browser.showQuitWarning'
+      label='&tabcontrol.showQuitWarning;'
+    />
+    <separator class="thin" />
 
-		<hbox align='center'>
-			<label value='&divertedWindowOpen.label;' control='divertedWindowOpen' />
-			<menulist prefstring='browser.link.open_newwindow.restriction'>
-				<menupopup>
-					<menuitem value='0' label='&divertedWindowOpen.all;' />
-					<menuitem value='2' label='&divertedWindowOpen.some;' />
-					<menuitem value='1' label='&divertedWindowOpen.none;' />
-				</menupopup>
-			</menulist>
-		</hbox>
-		<separator class='thin' />
+    <hbox align='center'>
+      <label value='&divertedWindowOpen.label;' control='divertedWindowOpen' />
+      <menulist prefstring='browser.link.open_newwindow.restriction'>
+        <menupopup>
+          <menuitem value='0' label='&divertedWindowOpen.all;' />
+          <menuitem value='2' label='&divertedWindowOpen.some;' />
+          <menuitem value='1' label='&divertedWindowOpen.none;' />
+        </menupopup>
+      </menulist>
+    </hbox>
+    <separator class='thin' />
 
-		<hbox align='center'>
-			<label value='&tabcontrol.closeButtons.label;' />
-			<menulist prefstring='browser.tabs.closeButtons'>
-				<menupopup>
-					<menuitem value='0' label='&tabcontrol.closeButtons.active;' />
-					<menuitem value='1' label='&tabcontrol.closeButtons.all;' />
-					<menuitem value='2' label='&tabcontrol.closeButtons.none;' />
-					<menuitem value='3' label='&tabcontrol.closeButtons.right;' />
-				</menupopup>
-			</menulist>
-		</hbox>
-		<separator class='thin' />
-	</vbox>
-	</groupbox>
+    <hbox align='center'>
+      <label value='&tabcontrol.closeButtons.label;' />
+      <menulist prefstring='browser.tabs.closeButtons'>
+        <menupopup>
+          <menuitem value='0' label='&tabcontrol.closeButtons.active;' />
+          <menuitem value='1' label='&tabcontrol.closeButtons.all;' />
+          <menuitem value='2' label='&tabcontrol.closeButtons.none;' />
+          <menuitem value='3' label='&tabcontrol.closeButtons.right;' />
+        </menupopup>
+      </menulist>
+    </hbox>
+    <separator class='thin' />
+  </vbox>
+  </groupbox>
 </dialog>
